@@ -1,4 +1,12 @@
-### Development of a Mars Habitat: Three-Step Evolution Towards Biomimetic and Self-Growing Structures
+
+---
+
+# Development of a Mars Habitat: Three-Step Evolution Towards Biomimetic and Self-Growing Structures
+
+- **Date:** Sep 13th, 2024
+- **Author:** Robert Alexander Massinger, Munich, Germany (with contributions supported by GPT-4)
+
+---
 
 The vision of a sustainable Mars habitat requires innovative solutions that are adaptable, lightweight, and efficient, especially in the extreme conditions of the Martian environment. To meet these demands, a progressive approach is envisioned, moving from traditional engineering techniques to advanced biomimetic and ultimately self-growing materials. This paper outlines the three development steps:
 
@@ -80,3 +88,23 @@ The final stage of development introduces **self-growing structures** inspired b
 ### Conclusion
 
 The development of a Mars habitat presents unique challenges that can be addressed through a phased approach. The first step involves the use of traditional, well-understood materials that are already available, offering robustness and reliability. As technology advances, the incorporation of **biomimetic principles**—using silica aerogels with silicon reinforcements—will lead to lighter, more efficient structures inspired by nature. The ultimate goal is to achieve a fully self-sustaining habitat, where **self-growing silicon-based materials** allow for **autonomous expansion and self-repair**. This progression not only mirrors the evolution of life on Earth but also represents the future of space colonization, where structures can grow and evolve to meet the needs of their inhabitants.
+
+---
+
+### License
+
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+© 2024 Robert Alexander Massinger, Munich, Germany.
+
+This is a summary of the CC BY 4.0 license. You may distribute and modify this work as long as you give proper credit to the author. You can find the full license at: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Please reference the Author and this License in any further use.
+
+---
+
+### Additional Disclaimer
+
+This document incorporates content generated with the assistance of GPT-4, an AI-based tool, under the guidance and supervision of the author. GPT-4 served as a support tool for drafting and structuring the material, and the responsibility for the final content rests solely with the author.
+
+---
