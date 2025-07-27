@@ -1,0 +1,31 @@
+name: Convert publish Markdown to PDF
+
+on:
+  push:
+    paths:
+      - '**/publish/**.md'
+      - '.github/workflows/convert_publish_markdown_to_pdf.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Convert Markdown files to PDF
+        run: |
+          for file in Habitats/MarsGummiHaus/publish/*.md; do
+            [ -f "$file" ] || continue
+            pandoc "$file" -o "${file%.md}.pdf"
+          done
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v3
+        with:
+          name: publish-pdfs
+          path: Habitats/MarsGummiHaus/publish/*.pdf
+          if-no-files-found: warn
