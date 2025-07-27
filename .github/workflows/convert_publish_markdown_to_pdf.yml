@@ -16,7 +16,14 @@ jobs:
       - name: Install Pandoc and LaTeX packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended
+          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra
+
+      - name: Replace Unicode subscripts with LaTeX
+        run: |
+          for file in Habitats/MarsGummiHaus/publish/*.md; do
+            [ -f "$file" ] || continue
+            sed -i -E 's/₀/$_0$/g; s/₁/$_1$/g; s/₂/$_2$/g; s/₃/$_3$/g; s/₄/$_4$/g; s/₅/$_5$/g; s/₆/$_6$/g; s/₇/$_7$/g; s/₈/$_8$/g; s/₉/$_9$/g' "$file"
+          done
 
       - name: Convert Markdown files to PDF
         run: |
