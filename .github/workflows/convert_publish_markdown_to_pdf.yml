@@ -33,10 +33,11 @@ jobs:
         run: |
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
-            pandoc "$file" -o "${file%.md}.pdf" --pdf-engine=xelatex \
+            pandoc "$file" -o "${file%.md}.pdf" \
+              --pdf-engine=xelatex \
               -V mainfont="DejaVu Sans" \
-              -V CJKmainfont="OpenMoji Color" \
-              -V monofont="DejaVu Sans Mono"
+              -V monofont="DejaVu Sans Mono" \
+              -V emoji="OpenMoji Color"
           done
 
       - name: Upload PDFs
