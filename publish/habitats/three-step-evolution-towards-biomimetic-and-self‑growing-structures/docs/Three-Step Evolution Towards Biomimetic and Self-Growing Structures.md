@@ -1,7 +1,7 @@
 ---
 title: "Three‑Step Evolution Towards Biomimetic and Self‑Growing Structures: A Vision for Adaptive Habitats on Mars"
 date: 2024‑09‑13
-author: "Robert Alexander Massinger, Munich, Germany (with contributions supported by GPT‑4)"
+author: "Robert Alexander Massinger, Munich, Germany"
 ---
 
 # Three‑Step Evolution Towards Biomimetic and Self‑Growing Structures: A Vision for Adaptive Habitats on Mars
