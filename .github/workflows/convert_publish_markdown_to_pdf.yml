@@ -37,7 +37,7 @@ jobs:
               --pdf-engine=lualatex \
               -V mainfont="DejaVu Sans" \
               -V monofont="DejaVu Sans Mono" \
-              -V emoji="OpenMojiColorEmoji.ttf"
+              -V emoji="Symbola"
           done
 
       - name: Upload PDFs
