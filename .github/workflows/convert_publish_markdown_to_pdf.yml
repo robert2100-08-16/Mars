@@ -20,15 +20,15 @@ jobs:
 
       - name: Replace Unicode subscripts with LaTeX
         run: |
-          for file in Habitats/MarsGummiHaus/publish/*.md; do
-            [ -f "$file" ] || continue
+          find publish -path '*/docs/*.md' -type f -print0 |
+          while IFS= read -r -d '' file; do
             sed -i -E 's/₀/$_0$/g; s/₁/$_1$/g; s/₂/$_2$/g; s/₃/$_3$/g; s/₄/$_4$/g; s/₅/$_5$/g; s/₆/$_6$/g; s/₇/$_7$/g; s/₈/$_8$/g; s/₉/$_9$/g' "$file"
           done
 
       - name: Convert Markdown files to PDF
         run: |
-          for file in Habitats/MarsGummiHaus/publish/*.md; do
-            [ -f "$file" ] || continue
+          find publish -path '*/docs/*.md' -type f -print0 |
+          while IFS= read -r -d '' file; do
             pandoc "$file" -o "${file%.md}.pdf"
           done
 
@@ -36,5 +36,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: publish-pdfs
-          path: Habitats/MarsGummiHaus/publish/*.pdf
+          path: publish/**/docs/*.pdf
           if-no-files-found: warn
