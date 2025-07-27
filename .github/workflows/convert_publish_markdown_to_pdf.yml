@@ -16,7 +16,7 @@ jobs:
       - name: Install Pandoc and LaTeX packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-fonts-recommended texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra
 
       - name: Replace Unicode subscripts with LaTeX
         run: |
@@ -29,7 +29,7 @@ jobs:
         run: |
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
-            pandoc "$file" -o "${file%.md}.pdf"
+            pandoc "$file" -o "${file%.md}.pdf" --pdf-engine=xelatex
           done
 
       - name: Upload PDFs
