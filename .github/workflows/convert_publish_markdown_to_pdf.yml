@@ -16,9 +16,10 @@ jobs:
       - name: Install Pandoc, LaTeX and emoji fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra fonts-dejavu-core fonts-noto-color-emoji
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra fonts-dejavu-core
           sudo mkdir -p /usr/share/fonts/truetype/openmoji
-          sudo wget -O /usr/share/fonts/truetype/openmoji/OpenMoji-color.ttf https://github.com/hfg-gmuend/openmoji/raw/master/font/OpenMoji-color-glyf_colr_0/OpenMoji-color-glyf_colr_0.ttf
+          sudo wget -O /usr/share/fonts/truetype/openmoji/OpenMoji-black-glyf.ttf https://github.com/hfg-gmuend/openmoji/raw/master/font/OpenMoji-black-glyf/OpenMoji-black-glyf.ttf
+          sudo wget -O /usr/share/fonts/truetype/openmoji/OpenMoji-color-glyf_colr_0.ttf https://github.com/hfg-gmuend/openmoji/raw/master/font/OpenMoji-color-glyf_colr_0/OpenMoji-color-glyf_colr_0.ttf
           sudo fc-cache -f -v
 
       - name: Replace Unicode subscripts with LaTeX
@@ -32,7 +33,10 @@ jobs:
         run: |
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
-            pandoc "$file" -o "${file%.md}.pdf" --pdf-engine=xelatex -V mainfont="DejaVu Sans"
+            pandoc "$file" -o "${file%.md}.pdf" --pdf-engine=xelatex \
+              -V mainfont="DejaVu Sans" \
+              -V CJKmainfont="OpenMoji Color" \
+              -V monofont="DejaVu Sans Mono"
           done
 
       - name: Upload PDFs
