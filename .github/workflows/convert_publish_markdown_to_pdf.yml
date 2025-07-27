@@ -13,10 +13,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install Pandoc and LaTeX packages
+      - name: Install Pandoc, LaTeX and emoji fonts
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-extra fonts-dejavu-core fonts-noto-color-emoji
+          sudo mkdir -p /usr/share/fonts/truetype/openmoji
+          sudo wget -O /usr/share/fonts/truetype/openmoji/OpenMoji-color.ttf https://github.com/hfg-gmuend/openmoji/raw/master/font/OpenMoji-color-glyf_colr_0/OpenMoji-color-glyf_colr_0.ttf
+          sudo fc-cache -f -v
 
       - name: Replace Unicode subscripts with LaTeX
         run: |
@@ -29,7 +32,7 @@ jobs:
         run: |
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
-            pandoc "$file" -o "${file%.md}.pdf" --pdf-engine=xelatex
+            pandoc "$file" -o "${file%.md}.pdf" --pdf-engine=xelatex -V mainfont="DejaVu Sans"
           done
 
       - name: Upload PDFs
