@@ -81,4 +81,4 @@ If you need further details or a PDF version of these variants, please let me kn
 
 ---
 **License:** CC BY 4.0
-**Disclaimer:** Portions of this document were generated with the assistance of GPT-4.
+**Disclaimer:** Portions of this document were generated with the assistance of GPT-4. The information is provided "as is" without warranty of any kind. All trademarks are property of their respective owners.

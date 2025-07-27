@@ -5,7 +5,7 @@ date: 2024-06-01
 keywords: [Mars, Rubber-Glass House, Community]
 abstract: |
   This manifesto presents a vision for a 1000 m² rubber-glass house constructed largely from Martian materials. It emphasizes sustainability, local resource use, and community participation in the expansion of extraterrestrial habitats.
-license: CC BY 4.0
+license: "CC BY 4.0 (text) / MIT (software excerpts)"
 ---
 
 "The People’s 1000 m² Rubber-Glass House on Mars" by Robert Alexander Massinger and ChatGpt 3.5/4o, June 2024, The MIT License applies. 
@@ -156,4 +156,4 @@ SOFTWARE.
 
 ---
 **License:** CC BY 4.0
-**Disclaimer:** Portions of this document were generated with the assistance of GPT-4.
+**Disclaimer:** Portions of this document were generated with the assistance of GPT-4. The information is provided "as is" without warranty of any kind. All trademarks are property of their respective owners.

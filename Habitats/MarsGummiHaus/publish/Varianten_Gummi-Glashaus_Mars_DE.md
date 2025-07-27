@@ -80,4 +80,4 @@ Falls du weitere Details oder eine PDF-Version dieser Varianten benötigst, lass
 
 ---
 **Lizenz:** CC BY 4.0
-**Disclaimer:** Teile dieses Dokuments wurden mit Unterstützung von GPT-4 erstellt.
+**Disclaimer:** Teile dieses Dokuments wurden mit Unterstützung von GPT-4 erstellt. Die Informationen werden ohne Gewähr bereitgestellt; eine Haftung für Schäden ist ausgeschlossen. Alle Marken sind Eigentum der jeweiligen Rechteinhaber.

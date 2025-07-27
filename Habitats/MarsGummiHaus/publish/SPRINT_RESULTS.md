@@ -15,3 +15,7 @@
 ## Sprint 4: Veröffentlichungsvorbereitung
 - Alle finalen Dateien im Ordner `publish` abgelegt.
 - Dokumente bereit für Upload auf Zenodo und Verknüpfung mit englischer Folgepublikation.
+
+---
+**License:** CC BY 4.0
+**Disclaimer:** Portions of this document were generated with the assistance of GPT-4. The information is provided "as is" without warranty of any kind. All trademarks are property of their respective owners.
