@@ -34,7 +34,7 @@ jobs:
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
             pandoc "$file" -o "${file%.md}.pdf" \
-              --lua-filter pandoc-emoji.lua \
+              --lua-filter /usr/share/pandoc/filters/pandoc-emoji.lua \
               --pdf-engine=lualatex \
               -V mainfont="DejaVu Sans" \
               -V monofont="DejaVu Sans Mono" \
