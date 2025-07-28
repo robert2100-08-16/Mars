@@ -73,16 +73,16 @@ This “Old School” step serves as the **launchpad for Martian infrastructure*
 
 ### Advantages
 
-- ✅ **Mature and reliable materials**: All components are space-grade or well understood in aerospace applications.
-- ✅ **Fast-track deployment**: This design can be constructed with existing manufacturing infrastructure on Earth.
-- ✅ **Robust against harsh conditions**: Resists Martian dust storms, radiation, and thermal extremes.
+- ✓ **Mature and reliable materials**: All components are space-grade or well understood in aerospace applications.
+- ✓ **Fast-track deployment**: This design can be constructed with existing manufacturing infrastructure on Earth.
+- ✓ **Robust against harsh conditions**: Resists Martian dust storms, radiation, and thermal extremes.
 
 ### Challenges
 
 - ⚠️ **High mass and volume**: Shipping heavy structural components from Earth increases cost and logistical complexity.
 - ⚠️ **Thermal inefficiency**: Additional insulation or heating systems are required to maintain livable interior temperatures during Mars nights and winters.
 
-> 🧠 *This step lays the groundwork for more adaptive systems. Its reliability provides a testing ground for future iterations that embrace biomimetic and self-growing properties.*
+> ⚙ *This step lays the groundwork for more adaptive systems. Its reliability provides a testing ground for future iterations that embrace biomimetic and self-growing properties.*
 
 ---
 
@@ -112,9 +112,9 @@ The design principle is simple: mimic nature’s way of distributing mechanical 
 
 ### Advantages
 
-- ✅ **Mass reduction**: Silica aerogel reduces launch weight dramatically, easing mission logistics.
-- ✅ **Thermal superiority**: Reduces energy costs by passively maintaining internal temperatures.
-- ✅ **Efficient strength**: Biomimetic webs provide reinforcement precisely where needed — no excess mass.
+- ✓ **Mass reduction**: Silica aerogel reduces launch weight dramatically, easing mission logistics.
+- ✓ **Thermal superiority**: Reduces energy costs by passively maintaining internal temperatures.
+- ✓ **Efficient strength**: Biomimetic webs provide reinforcement precisely where needed — no excess mass.
 
 ### Challenges
 
@@ -122,7 +122,7 @@ The design principle is simple: mimic nature’s way of distributing mechanical 
 - ⚠️ **Complex integration**: Merging silicon webs into the aerogel matrix requires cutting-edge fabrication — not yet space-proven.
 - ⚠️ **Atmospheric pressure stress**: Mars’ thin atmosphere creates a large pressure differential — reinforcement must prevent implosion while staying lightweight.
 
-> 🌱 *Step 2 marks the beginning of biologically inspired engineering on Mars — where material follows function, and design learns from evolution.*
+> ☘ *Step 2 marks the beginning of biologically inspired engineering on Mars — where material follows function, and design learns from evolution.*
 
 ---
 
@@ -156,9 +156,9 @@ This marks a shift from “hardware deployment” to **architectural emergence**
 
 ### Advantages
 
-- ✅ **Dynamic expansion**: Structures can grow with the colony — adding living space, storage, or shielding as needed.
-- ✅ **Self-maintenance**: Reduces need for human repair missions; increases safety and mission duration.
-- ✅ **Sustainability**: Uses Martian raw materials to generate habitat mass — lowering costs and enabling independence.
+- ✓ **Dynamic expansion**: Structures can grow with the colony — adding living space, storage, or shielding as needed.
+- ✓ **Self-maintenance**: Reduces need for human repair missions; increases safety and mission duration.
+- ✓ **Sustainability**: Uses Martian raw materials to generate habitat mass — lowering costs and enabling independence.
 
 ### Challenges
 
@@ -166,7 +166,7 @@ This marks a shift from “hardware deployment” to **architectural emergence**
 - ⚠️ **Control and containment**: Autonomous systems must be tightly governed to prevent runaway growth or malfunction.
 - ⚠️ **Ethical and regulatory concerns**: Self-evolving architecture may blur lines between machine and life — prompting new frameworks for safety and rights.
 
-> 🧬 *Step 3 imagines habitats that aren’t just built — they’re alive. They learn, grow, and repair themselves — transforming Mars into a place not merely visited, but inhabited.*
+> ⚛ *Step 3 imagines habitats that aren’t just built — they’re alive. They learn, grow, and repair themselves — transforming Mars into a place not merely visited, but inhabited.*
 
 ---
 
@@ -184,7 +184,7 @@ Each step builds upon the last — not by discarding what came before, but by de
 
 In the long view, **the line between structure and organism may dissolve**. Future Mars habitats might pulse with regenerative energy, expand with their communities, and adapt like ecosystems. They will not merely shield life — they will be part of it.
 
-> 🌍 *What begins as shelter may evolve into habitat. What evolves into habitat may one day become home.*
+> ♁ *What begins as shelter may evolve into habitat. What evolves into habitat may one day become home.*
 
 ---
 

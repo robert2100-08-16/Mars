@@ -19,7 +19,7 @@ jobs:
           sudo apt-get install -y pandoc texlive-luatex texlive-fonts-recommended texlive-latex-extra texlive-lang-cjk fonts-dejavu-core
           sudo mkdir -p /usr/share/fonts/truetype/openmoji
           sudo wget -O /usr/share/fonts/truetype/openmoji/OpenMoji-black-glyf.ttf https://github.com/hfg-gmuend/openmoji/raw/master/font/OpenMoji-black-glyf/OpenMoji-black-glyf.ttf
-          sudo wget -O /usr/share/fonts/truetype/openmoji/OpenMojiColorEmoji.ttf https://github.com/hfg-gmuend/openmoji/raw/master/font/OpenMoji-color-glyf_colr_0/OpenMoji-color-glyf_colr_0.ttf
+          # Install only the monochrome emoji font
           sudo fc-cache -f -v
 
       - name: Replace Unicode subscripts with LaTeX
@@ -42,10 +42,10 @@ jobs:
             --pdf-engine=lualatex \
             -V mainfont="DejaVu Sans" \
             -V monofont="DejaVu Sans Mono" \
-            -V emoji="OpenMojiColorEmoji.ttf" \
+            -V emoji="OpenMoji-black-glyf.ttf" \
             --lua-filter=latex-emoji.lua \
-            -M emojifont="OpenMojiColorEmoji.ttf" \
-            -M color=true
+            -M emojifont="OpenMoji-black-glyf.ttf" \
+            -M color=false
           done
 
       - name: Upload PDFs
