@@ -31,13 +31,9 @@ jobs:
 
       - name: Convert Markdown files to PDF
         run: |
-          # Ask pandoc where it actually keeps its default filters
-          FILTER="$(pandoc --print-default-data-file=filters/pandoc-emoji.lua)"
-          echo "Using emoji filter at $FILTER"
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
-            pandoc "$file" -o "${file%.md}.pdf" \        
-            --lua-filter "$FILTER" \
+            pandoc "$file" -o "${file%.md}.pdf" \
             --pdf-engine=lualatex \
             -V mainfont="DejaVu Sans" \
             -V monofont="DejaVu Sans Mono" \
