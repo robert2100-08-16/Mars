@@ -31,6 +31,8 @@ jobs:
 
       - name: Convert Markdown files to PDF
         run: |
+          FILTERS="$(pandoc --print-default-data-file=filters)"
+          ls $FILTERS -la
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
             pandoc "$file" -o "${file%.md}.pdf" \
