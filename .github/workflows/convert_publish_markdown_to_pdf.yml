@@ -29,17 +29,21 @@ jobs:
             sed -i -E 's/₀/$_0$/g; s/₁/$_1$/g; s/₂/$_2$/g; s/₃/$_3$/g; s/₄/$_4$/g; s/₅/$_5$/g; s/₆/$_6$/g; s/₇/$_7$/g; s/₈/$_8$/g; s/₉/$_9$/g' "$file"
           done
 
+      # Download the pandoc-emoji.lua filter
+      - name: Download pandoc-emoji.lua filter
+        run: wget https://raw.githubusercontent.com/pandoc/lua-filters/master/emoji/emoji.lua -O pandoc-emoji.lua
+      
+      # Convert Markdown files to PDF using the filter
       - name: Convert Markdown files to PDF
         run: |
-          FILTERS="$(pandoc --print-default-data-file=filters)"
-          ls $FILTERS -la
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
             pandoc "$file" -o "${file%.md}.pdf" \
             --pdf-engine=lualatex \
             -V mainfont="DejaVu Sans" \
             -V monofont="DejaVu Sans Mono" \
-            -V emoji="OpenMojiColorEmoji.ttf"
+            -V emoji="OpenMojiColorEmoji.ttf" \
+            --lua-filter=pandoc-emoji.lua
           done
 
       - name: Upload PDFs
