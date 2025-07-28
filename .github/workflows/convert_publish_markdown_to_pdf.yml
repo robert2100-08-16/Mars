@@ -43,7 +43,9 @@ jobs:
             -V mainfont="DejaVu Sans" \
             -V monofont="DejaVu Sans Mono" \
             -V emoji="OpenMojiColorEmoji.ttf" \
-            --lua-filter=latex-emoji.lua
+            --lua-filter=latex-emoji.lua \
+            -M emojifont="OpenMojiColorEmoji.ttf" \
+            -M color=true \
           done
 
       - name: Upload PDFs
