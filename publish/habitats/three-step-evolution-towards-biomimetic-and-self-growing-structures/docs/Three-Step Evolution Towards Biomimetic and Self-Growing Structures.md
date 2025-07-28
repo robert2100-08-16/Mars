@@ -184,7 +184,7 @@ Each step builds upon the last — not by discarding what came before, but by de
 
 In the long view, **the line between structure and organism may dissolve**. Future Mars habitats might pulse with regenerative energy, expand with their communities, and adapt like ecosystems. They will not merely shield life — they will be part of it.
 
-> ♁ *What begins as shelter may evolve into habitat. What evolves into habitat may one day become home.*
+> *What begins as shelter may evolve into habitat. What evolves into habitat may one day become home.*
 
 ---
 
