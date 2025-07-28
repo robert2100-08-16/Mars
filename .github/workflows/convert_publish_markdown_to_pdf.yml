@@ -31,7 +31,7 @@ jobs:
 
       # Download the pandoc-emoji.lua filter
       - name: Download pandoc-emoji.lua filter
-        run: wget https://raw.githubusercontent.com/pandoc/lua-filters/master/emoji/emoji.lua -O pandoc-emoji.lua
+        run: wget https://gist.githubusercontent.com/zr-tex8r/a5410ad20ab291c390884b960c900537/raw/latex-emoji.lua -O latex-emoji.lua
       
       # Convert Markdown files to PDF using the filter
       - name: Convert Markdown files to PDF
@@ -43,7 +43,7 @@ jobs:
             -V mainfont="DejaVu Sans" \
             -V monofont="DejaVu Sans Mono" \
             -V emoji="OpenMojiColorEmoji.ttf" \
-            --lua-filter=pandoc-emoji.lua
+            --lua-filter=latex-emoji.lua
           done
 
       - name: Upload PDFs
