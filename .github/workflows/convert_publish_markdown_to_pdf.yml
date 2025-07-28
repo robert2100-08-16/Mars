@@ -3,7 +3,7 @@ name: Convert publish Markdown to PDF
 on:
   push:
     paths:
-      - '**/publish/**.md'
+      - 'publish/**'
       - '.github/workflows/convert_publish_markdown_to_pdf.yml'
 
 jobs:
@@ -38,7 +38,10 @@ jobs:
         run: |
           find publish -path '*/docs/*.md' -type f -print0 |
           while IFS= read -r -d '' file; do
-            pandoc "$file" -o "${file%.md}.pdf" \
+            out="published/${file#publish/}"
+            out="${out%.md}.pdf"
+            mkdir -p "$(dirname "$out")"
+            pandoc "$file" -o "$out" \
             --pdf-engine=lualatex \
             -V mainfont="DejaVu Sans" \
             -V monofont="DejaVu Sans Mono" \
@@ -52,5 +55,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: publish-pdfs
-          path: publish/**/docs/*.pdf
+          path: published/**/*.pdf
           if-no-files-found: warn
