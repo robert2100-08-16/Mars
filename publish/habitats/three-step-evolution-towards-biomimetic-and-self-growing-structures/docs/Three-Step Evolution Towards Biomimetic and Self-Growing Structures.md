@@ -188,7 +188,7 @@ In the long view, **the line between structure and organism may dissolve**. Futu
 
 ---
 
-### License
+## License
 
 This work is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. 
 
