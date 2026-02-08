@@ -1,0 +1,55 @@
+# ─────────────────────────────────────────────────────────────
+# Das Mars Buch – Deutsche publish.yml
+# Build-Profile, Fonts und PDF-Optionen für gitbook-worker
+# ─────────────────────────────────────────────────────────────
+version: 0.1.1
+
+profiles:
+  local:
+    steps: [converter, generate_attribution, publisher]
+    registry: null
+  default:
+    steps:
+      - check_if_to_publish
+      - ensure_readme
+      - update_citation
+      - converter
+      - engineering-document-formatter
+      - generate_attribution
+      - publisher
+
+project:
+  name: "Das Mars Buch"
+  version: "1.0.0"
+  date: "2026-02-08"
+  license: "CC BY 4.0"
+  author: "Robert Alexander Massinger"
+
+publish:
+  - build: true
+    format: pdf
+    source_type: folder
+    source_format: markdown
+    target_style: gitbook
+    generate_attribution: true
+    pdf_options:
+      documentclass: report
+      mainfont: "DejaVu Serif"
+      sansfont: "DejaVu Sans"
+      monofont: "DejaVu Sans Mono"
+      mainfontfallback:
+        - "Twemoji Mozilla"
+      fontsize: "11pt"
+      geometry: "a4paper,margin=2.5cm"
+      toc: true
+      toc-depth: 3
+      numbersections: true
+      colorlinks: true
+      linkcolor: "NavyBlue"
+      urlcolor: "NavyBlue"
+      citecolor: "NavyBlue"
+      lang: "de"
+      header-includes: |
+        \usepackage{booktabs}
+        \usepackage{longtable}
+        \usepackage{graphicx}

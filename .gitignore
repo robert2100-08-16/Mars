@@ -1,0 +1,24 @@
+# ── GitBook Worker build outputs ──────────────────────────────
+book/en/publish/
+book/de/publish/
+book/fonts-storage/
+book/.gitbook-content/
+
+# ── Collected chapter content (copied by build-book.ps1) ─────
+# These are copies from the canonical source locations.
+# Only the scaffold (intro, appendix, SUMMARY) is tracked.
+book/en/content/chapters/
+book/de/content/chapters/
+
+# ── OS / Editor ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/settings.json
+
+# ── Python venv (if gitbook-worker is installed locally) ─────
+.venv/
+__pycache__/
+*.pyc

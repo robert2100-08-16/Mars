@@ -1,0 +1,13 @@
+{
+    "title": "The Mars Book",
+    "author": "Robert Alexander Massinger",
+    "language": "en",
+    "description": "Collected papers, concepts and engineering studies on Mars habitats, biomimetic structures and autonomous robotics – by Robert Alexander Massinger Space Technologies.",
+    "version": "1.0.0",
+    "date": "2026-02-08",
+    "root": "content/",
+    "structure": {
+        "readme": "README.md",
+        "summary": "SUMMARY.md"
+    }
+}

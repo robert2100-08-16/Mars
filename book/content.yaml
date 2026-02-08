@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────────────────────
+# The Mars Book / Das Mars Buch – GitBook Worker content.yaml
+# Central language configuration for gitbook-worker CLI
+# ─────────────────────────────────────────────────────────────
+version: 1.0.0
+default: en
+
+contents:
+  - id: en
+    type: local
+    uri: en/
+    description: "The Mars Book – English edition"
+
+  - id: de
+    type: local
+    uri: de/
+    description: "Das Mars Buch – Deutsche Ausgabe"

@@ -84,12 +84,36 @@ Aktualisierung mit:
 
 ---
 
+## 6. GitBook Worker – „The Mars Book" / „Das Mars Buch"
+
+**Priorität:** Hoch  
+**Status:** ✅ Scaffold erstellt (2026-02-08)
+
+Professionelle PDF-Erzeugung über [GitBook Worker v2.1.0+](https://github.com/Rob9999/gitbook-worker).  
+Workspace eingerichtet unter `book/` mit `content.yaml`, `book.json`, `publish.yml` für DE + EN.
+
+**Nächste Schritte:**
+- [ ] gitbook-worker lokal installieren (`pip install -e <path>`)
+- [ ] Pandoc + TeX Live (LuaLaTeX) sicherstellen
+- [ ] `build-book.ps1 -Lang en` / `-Lang de` testen
+- [ ] Erste PDF-Proofs reviewen (Fonts, TOC, Seitenumbrüche)
+- [ ] Fehlende DE-Übersetzungen für Three-Step, Cost Estimation, Robotics anfertigen
+- [ ] Ggf. GitHub Actions Workflow für automatische Book-PDFs ergänzen
+- [ ] The People's House DE-Version erstellen oder aus EN-Book ausschließen
+
+**Buch-Kapitel (nur im Buch, nicht als Paper veröffentlicht):**
+- Introduction / Einleitung
+- License / Lizenz (Appendix)
+- Colophon / Kolophon (Appendix)
+
+---
+
 ## Weitere Punkte (niedrigere Priorität)
 
-- YAML-Frontmatter in alle Quelldateien einfügen
-- `The Peoples 1000 m2 Rubber-Glass House on Mars.txt` → `.md` konvertieren
+- ~~YAML-Frontmatter in alle Quelldateien einfügen~~ ✅ erledigt (2026-02-08)
+- ~~`The Peoples 1000 m2 Rubber-Glass House on Mars.txt` → `.md` konvertieren~~ ✅ erledigt
 - Inhaltliche Aktualisierung: Transportkosten, Energieertrag-Quellenangaben
-- Sprintpläne archivieren oder als erledigt markieren
+- ~~Sprintpläne archivieren oder als erledigt markieren~~ ✅ erledigt (→ `backlog/done/`)
 - CHANGELOG.md anlegen
-- PDF-Pipeline (GitHub Actions) validieren
-- AGENTS.md aktualisieren (Three-Step ist veröffentlicht, nicht mehr „nachgelagert")
+- ~~PDF-Pipeline (GitHub Actions) validieren~~ → abgelöst durch GitBook Worker (`book/`)
+- ~~AGENTS.md aktualisieren (Three-Step ist veröffentlicht)~~ ✅ erledigt
