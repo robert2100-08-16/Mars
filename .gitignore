@@ -17,10 +17,24 @@ publish/*.pdf
 publish/temp/
 
 # ── Collected chapter content (copied by build-book.ps1) ─────
-# These are copies from the canonical source locations.
-# Only the scaffold (intro, appendix, SUMMARY) is tracked.
-book/en/content/chapters/
-book/de/content/chapters/
+# The build script copies source MDs into sub-chapter dirs.
+# We track the chapter *structure* (topic READMEs, DOI appendices)
+# but ignore the build-populated sub-chapter content directories.
+# EN sub-chapter content (build-copied)
+book/en/content/chapters/*/design/
+book/en/content/chapters/*/variants/
+book/en/content/chapters/*/v2/
+book/en/content/chapters/*/design-improvements/
+book/en/content/chapters/*/cost-estimation/
+book/en/content/chapters/*/the-peoples-house/
+book/en/content/chapters/*/article/
+# DE sub-chapter content (build-copied)
+book/de/content/chapters/*/entwurf/
+book/de/content/chapters/*/varianten/
+book/de/content/chapters/*/v2/
+book/de/content/chapters/*/design-verbesserungen/
+book/de/content/chapters/*/kostenschaetzung/
+book/de/content/chapters/*/artikel/
 
 # ── OS / Editor ──────────────────────────────────────────────
 .DS_Store

@@ -42,20 +42,20 @@ $Robotics = Join-Path $RepoRoot "Robotics"
 # Format: "Src|EnDest|DeDest"  (empty string = skip for that language)
 
 $MappingLines = @(
-    # Part I: Mars Habitats
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Design_Rubber-Glass_House_Mars_EN.md|chapters\design-rubber-glass-house\README.md|"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Entwurf_Gummi-Glashaus_Mars_DE.md||chapters\entwurf-gummi-glashaus\README.md"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\variants-rubber-glass-house\README.md|"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\varianten-gummi-glashaus\README.md"
-    "$Habitats\Design Improvements for the Mars Rubber-Glass House v2.md|chapters\design-improvements-v2\README.md|chapters\design-verbesserungen-v2\README.md"
-    "$Habitats\The 1000 m² Mars Rubber-Glass House v2.md|chapters\rubber-glass-house-v2\README.md|"
-    "$Habitats\Das 1000 m² Mars Gummi-Glashaus v2.md||chapters\gummi-glashaus-v2\README.md"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Cost_Estimation_Mars_Project_EN.md|chapters\cost-estimation\README.md|chapters\kostenschaetzung\README.md"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\the-peoples-house\README.md|"
-    # Part II: Biomimetic Structures
-    "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\10.5281-zenodo.16540444\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\three-step-evolution\README.md|chapters\drei-stufen-evolution\README.md"
-    # Part III: Mars Robotics
-    "$Robotics\Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md|chapters\mars-field-laboratories\README.md|chapters\mars-feldlabore\README.md"
+    # ── Topic 1: Mars Rubber-Glass House / Gummi-Glashaus ──────────────────
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Design_Rubber-Glass_House_Mars_EN.md|chapters\1-mars-rubber-glass-house\design\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Entwurf_Gummi-Glashaus_Mars_DE.md||chapters\1-mars-gummi-glashaus\entwurf\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\1-mars-rubber-glass-house\variants\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\1-mars-gummi-glashaus\varianten\README.md"
+    "$Habitats\Design Improvements for the Mars Rubber-Glass House v2.md|chapters\1-mars-rubber-glass-house\design-improvements\README.md|chapters\1-mars-gummi-glashaus\design-verbesserungen\README.md"
+    "$Habitats\The 1000 m² Mars Rubber-Glass House v2.md|chapters\1-mars-rubber-glass-house\v2\README.md|"
+    "$Habitats\Das 1000 m² Mars Gummi-Glashaus v2.md||chapters\1-mars-gummi-glashaus\v2\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Cost_Estimation_Mars_Project_EN.md|chapters\1-mars-rubber-glass-house\cost-estimation\README.md|chapters\1-mars-gummi-glashaus\kostenschaetzung\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\1-mars-rubber-glass-house\the-peoples-house\README.md|"
+    # ── Topic 2: Three-Step Evolution / Drei-Stufen-Evolution ──────────────
+    "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\10.5281-zenodo.16540444\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\2-three-step-evolution\article\README.md|chapters\2-drei-stufen-evolution\artikel\README.md"
+    # ── Topic 3: Mars Field Laboratories / Mars-Feldlabore ─────────────────
+    "$Robotics\Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md|chapters\3-mars-field-laboratories\article\README.md|chapters\3-mars-feldlabore\artikel\README.md"
 )
 
 # ── Helper: Strip YAML frontmatter and sanitise --- rules ────────────────
