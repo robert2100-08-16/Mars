@@ -22,11 +22,16 @@ project:
 publish:
 - build: true
   path: content/
-  out: publish/the-mars-book.pdf
+  out: ./the-mars-book.pdf
   format: pdf
   source_type: folder
   source_format: markdown
   target_style: gitbook
+  use_summary: true
+  use_book_json: true
+  summary_mode: gitbook
+  summary_appendices_last: true
+  keep_combined: true
   generate_attribution: true
   pdf_options:
     documentclass: report

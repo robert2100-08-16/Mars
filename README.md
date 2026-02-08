@@ -60,7 +60,9 @@ Mars/
     three-step-evolution./  # Source document for Pub 2
   Robotics/                 # Source documents for Pub 3
   publish/                  # Standalone PDF build pipeline (publish.yml)
-  published/                # Finalized Markdown + published archives
+  published/
+    habitats/               # Pub 1, 2, 4 published archives
+    robotics/               # Pub 3 published archives
   book/                     # GitBook Worker book pipeline (EN + DE PDFs)
   backlog/                  # Planned improvements for next releases
   .github/workflows/        # Pandoc/LuaLaTeX PDF conversion pipeline

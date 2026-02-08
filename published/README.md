@@ -14,5 +14,6 @@ All publications are archived on [Zenodo](https://zenodo.org/) with persistent D
 
 ## Folder Structure
 
-- `habitats/mars-gummi-haus/` — Pub 1 finalized documents (v1)
+- `habitats/mars-gummi-haus/` — Pub 1 (v1) + Pub 4 (v2.0) finalized documents
 - `habitats/three-step-evolution.../` — Pub 2 finalized documents
+- `robotics/mars-field-laboratories/` — Pub 3 finalized documents
