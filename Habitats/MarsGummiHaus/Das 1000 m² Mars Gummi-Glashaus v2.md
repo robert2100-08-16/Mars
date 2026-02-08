@@ -162,8 +162,8 @@ Drei Klimazonen, getrennt durch leichte Silikonschaum-Trennwände (STC ≥ 35):
 
 ```
 ┌──────────────────────────────────────────────────────┐
-│                    SOLARDACH (1.000 m²)               │
-│              + 50 cm marsianische Regolith-Schicht    │
+│                    SOLARDACH (1.000 m²)              │
+│              + 50 cm marsianische Regolith-Schicht   │
 ├──────────┬──────────────────────┬────────────────────┤
 │          │                      │                    │
 │  WARME   │    GEMÄSSIGTE        │      KÜHLE         │
@@ -181,7 +181,7 @@ Drei Klimazonen, getrennt durch leichte Silikonschaum-Trennwände (STC ≥ 35):
 │  NORD]   │                      │         SÜD]       │
 ├──────────┴──────────────────────┴────────────────────┤
 │  ZWISCHENGESCHOSS (über Warm- + Gemäßigter Zone)     │
-│  ~400 m²: 4 Crew-Kabinen (48 m²), Ruheraum (12 m²), │
+│  ~400 m²: 4 Crew-Kabinen (48 m²), Ruheraum (12 m²),  │
 │  Lager, Crew-Freizeit, obere Etagen vertikaler Anbau │
 └──────────────────────────────────────────────────────┘
 ```

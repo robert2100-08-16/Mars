@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Collects the latest Markdown sources from the Mars repository into the
     GitBook Worker book/ workspace and optionally runs the PDF pipeline.
@@ -48,6 +48,8 @@ $MappingLines = @(
     "$Publish\mars-gummi-haus\docs\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\variants-rubber-glass-house\README.md|"
     "$Publish\mars-gummi-haus\docs\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\varianten-gummi-glashaus\README.md"
     "$Habitats\Design Improvements for the Mars Rubber-Glass House v2.md|chapters\design-improvements-v2\README.md|chapters\design-verbesserungen-v2\README.md"
+    "$Habitats\The 1000 m² Mars Rubber-Glass House v2.md|chapters\rubber-glass-house-v2\README.md|"
+    "$Habitats\Das 1000 m² Mars Gummi-Glashaus v2.md||chapters\gummi-glashaus-v2\README.md"
     "$Publish\mars-gummi-haus\docs\Cost_Estimation_Mars_Project_EN.md|chapters\cost-estimation\README.md|chapters\kostenschaetzung\README.md"
     "$Publish\mars-gummi-haus\docs\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\the-peoples-house\README.md|"
     # Part II: Biomimetic Structures

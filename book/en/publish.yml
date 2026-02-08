@@ -27,6 +27,7 @@ publish:
   source_type: folder
   source_format: markdown
   target_style: gitbook
+  generate_attribution: true
   pdf_options:
     documentclass: report
     mainfont: DejaVu Serif
@@ -42,10 +43,3 @@ publish:
     urlcolor: NavyBlue
     citecolor: NavyBlue
     lang: en-GB
-    header-includes: '\usepackage{booktabs}
-
-      \usepackage{longtable}
-
-      \usepackage{graphicx}
-
-      '

@@ -9,5 +9,6 @@
   * [License](appendix/license/README.md)
   * [Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters (Version 1.2)](chapters/mars-field-laboratories/README.md)
   * [README](chapters/the-peoples-house/README.md)
+  * [The 1000 m² Mars Rubber-Glass House — Version 2.0](chapters/rubber-glass-house-v2/README.md)
   * [Three-Step Evolution Towards Biomimetic and Self-Growing Structures: A Vision for Adaptive Habitats on Mars](chapters/three-step-evolution/README.md)
 * [Introduction](introduction/README.md)

@@ -3,6 +3,7 @@
 * [Das Mars Buch](README.md)
   * [1. **Test Project on Earth**](chapters/kostenschaetzung/README.md)
   * [1. Zwei-Stöckiges Gummi-Glashaus](chapters/varianten-gummi-glashaus/README.md)
+  * [Das 1000 m² Mars Gummi-Glashaus — Version 2.0](chapters/gummi-glashaus-v2/README.md)
   * [Design Improvements for the Mars Rubber-Glass House – Proposals for v2](chapters/design-verbesserungen-v2/README.md)
   * [Exposé: Entwurf eines 1000 m² Gummi-Glashauses für den Mars](chapters/entwurf-gummi-glashaus/README.md)
   * [Kolophon](anhang/kolophon/README.md)
