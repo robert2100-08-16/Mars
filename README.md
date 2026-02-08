@@ -38,6 +38,17 @@ An integrated exploration architecture combining autonomous legged robots (Type 
 - **Published:** April 29, 2025 | **Version:** 1.2
 - **License:** CC BY 4.0
 
+### 4. The 1000 m² Mars Rubber-Glass House — Version 2.0
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18526534.svg)](https://doi.org/10.5281/zenodo.18526534)
+
+Comprehensive v2.0 redesign of the Mars Rubber-Glass House: closed-loop life support, structured crew routines, waste-to-resource cycling, ISRU strategy, medical/psychological framework, and simulation methodology. Transforms the habitat from a structural shelter into a self-sustaining micro-civilisation for four crew members. Includes both English and German PDFs.
+
+- **Published:** February 8, 2026 | **Version:** v2.0
+- **Is new version of:** [Pub 1 (v1)](https://doi.org/10.5281/zenodo.16493055)
+- **All versions DOI:** [10.5281/zenodo.16493054](https://doi.org/10.5281/zenodo.16493054)
+- **License:** CC BY 4.0
+
 ---
 
 ## Repository Structure

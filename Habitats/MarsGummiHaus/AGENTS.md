@@ -31,7 +31,7 @@ Er dient als zentraler Koordinator im Veröffentlichungsprozess und bindet weite
 - **„The 1000 m² Mars Rubber-Glass House — Version 2.0"**  
   Umfassende V2.0-Neugestaltung: Closed-Loop Life Support, Crew-Routinen, Abfall-Recycling, ISRU, medizinisches Framework  
   📁 Quelle: GitHub Repository  
-  📝 Status: Entwurf (v2.0)
+  ✅ Veröffentlicht: [DOI: 10.5281/zenodo.18526534](https://doi.org/10.5281/zenodo.18526534)
 
 ---
 
@@ -66,6 +66,7 @@ Er dient als zentraler Koordinator im Veröffentlichungsprozess und bindet weite
 | Publikation | DOI | Status |
 |---|---|---|
 | Mars Rubber-Glass House Project | [10.5281/zenodo.16493055](https://doi.org/10.5281/zenodo.16493055) | ✅ v1 veröffentlicht |
+| **Mars Rubber-Glass House v2.0** | [10.5281/zenodo.18526534](https://doi.org/10.5281/zenodo.18526534) | ✅ v2.0 veröffentlicht |
 | Three-Step Evolution | [10.5281/zenodo.16540444](https://doi.org/10.5281/zenodo.16540444) | ✅ v1.0 veröffentlicht |
 | Mars Field Laboratories | [10.5281/zenodo.15455156](https://doi.org/10.5281/zenodo.15455156) | ✅ v1.2 veröffentlicht |
 

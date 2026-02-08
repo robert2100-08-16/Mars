@@ -7,10 +7,10 @@ contact: "robert@robert-alexander-massinger-space-technologies.com"
 version: "2.0"
 date: 2026-02-08
 last-modified: 2026-02-08
-status: "draft"
-doi: ""
-doi-all-versions: ""
-zenodo-record: ""
+status: "published"
+doi: "10.5281/zenodo.18526534"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/18526534"
 resource-type: "publication"
 lang: en
 keywords:
