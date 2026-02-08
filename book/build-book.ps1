@@ -5,7 +5,7 @@
 
 .DESCRIPTION
     This script copies the newest version of each document from its canonical
-    source location (Habitats/, Robotics/, publish/) into the GitBook Worker
+    source location (Habitats/, Robotics/, published/) into the GitBook Worker
     content tree (book/<lang>/content/chapters/...).  It then invokes
     gitbook-worker to produce the PDF.
 
@@ -35,7 +35,7 @@ $ErrorActionPreference = "Stop"
 $BookRoot = $PSScriptRoot                                       # book/
 $RepoRoot = (Resolve-Path (Join-Path $BookRoot "..")).Path      # Mars/
 $Habitats = Join-Path $RepoRoot "Habitats\MarsGummiHaus"
-$Publish = Join-Path $RepoRoot "publish\habitats"
+$Publish = Join-Path $RepoRoot "published\habitats"
 $Robotics = Join-Path $RepoRoot "Robotics"
 
 # ── Source -> Destination Mapping ─────────────────────────────────────────

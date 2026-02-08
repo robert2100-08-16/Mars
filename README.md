@@ -56,11 +56,12 @@ Comprehensive v2.0 redesign of the Mars Rubber-Glass House: closed-loop life sup
 ```
 Mars/
   Habitats/
-    MarsGummiHaus/          # Source documents for Pub 1
+    MarsGummiHaus/          # Source documents for Pub 1 + v2.0
     three-step-evolution./  # Source document for Pub 2
   Robotics/                 # Source documents for Pub 3
-  publish/                  # Finalized Markdown for PDF generation
-  published/                # Generated PDFs (via GitHub Actions)
+  publish/                  # Standalone PDF build pipeline (publish.yml)
+  published/                # Finalized Markdown + published archives
+  book/                     # GitBook Worker book pipeline (EN + DE PDFs)
   backlog/                  # Planned improvements for next releases
   .github/workflows/        # Pandoc/LuaLaTeX PDF conversion pipeline
 ```

@@ -72,12 +72,12 @@ its canonical location in the repository:
 
 | Chapter | Source Location | EN | DE |
 |---------|---------------|:--:|:--:|
-| Design 1000 m² House | `publish/habitats/mars-gummi-haus/docs/` | ✅ | ✅ |
-| Variants | `publish/habitats/mars-gummi-haus/docs/` | ✅ | ✅ |
+| Design 1000 m² House | `published/habitats/mars-gummi-haus/docs/` | ✅ | ✅ |
+| Variants | `published/habitats/mars-gummi-haus/docs/` | ✅ | ✅ |
 | Design Improvements v2 | `Habitats/MarsGummiHaus/` | ✅ | ⏳ |
-| Cost Estimation | `publish/habitats/mars-gummi-haus/docs/` | ✅ | ⏳ |
-| The People's House | `publish/habitats/mars-gummi-haus/docs/` | ✅ | — |
-| Three-Step Evolution | `publish/habitats/three-step-evolution.../docs/` | ✅ | ⏳ |
+| Cost Estimation | `published/habitats/mars-gummi-haus/docs/` | ✅ | ⏳ |
+| The People's House | `published/habitats/mars-gummi-haus/docs/` | ✅ | — |
+| Three-Step Evolution | `published/habitats/three-step-evolution.../docs/` | ✅ | ⏳ |
 | Mars Field Labs | `Robotics/` | ✅ | ⏳ |
 
 ✅ = available · ⏳ = uses EN version until DE translation exists · — = no DE equivalent
