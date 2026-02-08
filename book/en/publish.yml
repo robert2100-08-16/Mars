@@ -1,55 +1,51 @@
-# ─────────────────────────────────────────────────────────────
-# The Mars Book – English publish.yml
-# Build profiles, fonts and PDF options for gitbook-worker
-# ─────────────────────────────────────────────────────────────
 version: 0.1.1
-
 profiles:
   local:
-    steps: [converter, generate_attribution, publisher]
+    steps:
+    - converter
+    - publisher
     registry: null
   default:
     steps:
-      - check_if_to_publish
-      - ensure_readme
-      - update_citation
-      - converter
-      - engineering-document-formatter
-      - generate_attribution
-      - publisher
-
+    - check_if_to_publish
+    - ensure_readme
+    - update_citation
+    - converter
+    - engineering-document-formatter
+    - publisher
 project:
-  name: "The Mars Book"
-  version: "1.0.0"
-  date: "2026-02-08"
-  license: "CC BY 4.0"
-  author: "Robert Alexander Massinger"
-
+  name: The Mars Book
+  version: 1.0.0
+  date: '2026-02-08'
+  license: CC BY 4.0
+  author: Robert Alexander Massinger
 publish:
-  - build: true
-    format: pdf
-    source_type: folder
-    source_format: markdown
-    target_style: gitbook
-    generate_attribution: true
-    pdf_options:
-      documentclass: report
-      mainfont: "DejaVu Serif"
-      sansfont: "DejaVu Sans"
-      monofont: "DejaVu Sans Mono"
-      mainfontfallback:
-        - "Twemoji Mozilla"
-      fontsize: "11pt"
-      geometry: "a4paper,margin=2.5cm"
-      toc: true
-      toc-depth: 3
-      numbersections: true
-      colorlinks: true
-      linkcolor: "NavyBlue"
-      urlcolor: "NavyBlue"
-      citecolor: "NavyBlue"
-      lang: "en-GB"
-      header-includes: |
-        \usepackage{booktabs}
-        \usepackage{longtable}
-        \usepackage{graphicx}
+- build: true
+  path: content/
+  out: publish/the-mars-book.pdf
+  format: pdf
+  source_type: folder
+  source_format: markdown
+  target_style: gitbook
+  pdf_options:
+    documentclass: report
+    mainfont: DejaVu Serif
+    sansfont: DejaVu Sans
+    monofont: DejaVu Sans Mono
+    fontsize: 11pt
+    geometry: a4paper,margin=2.5cm
+    toc: true
+    toc-depth: 3
+    numbersections: true
+    colorlinks: true
+    linkcolor: NavyBlue
+    urlcolor: NavyBlue
+    citecolor: NavyBlue
+    lang: en-GB
+    header-includes: '\usepackage{booktabs}
+
+      \usepackage{longtable}
+
+      \usepackage{graphicx}
+
+      '

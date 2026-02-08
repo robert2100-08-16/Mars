@@ -56,14 +56,69 @@ $MappingLines = @(
     "$Robotics\Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md|chapters\mars-field-laboratories\README.md|chapters\mars-feldlabore\README.md"
 )
 
-# ── Helper: Copy one chapter ─────────────────────────────────────────────
+# ── Helper: Strip YAML frontmatter and sanitise --- rules ────────────────
+# Pandoc interprets --- lines as YAML metadata block delimiters. When
+# gitbook-worker merges chapters into a single Markdown file, leftover
+# frontmatter blocks and --- horizontal rules trigger YAML parse errors.
+# This function:
+#   1. Removes the opening YAML frontmatter block (first ---…--- pair)
+#   2. Replaces remaining standalone --- lines with *** (valid HR in MD)
+function Sanitise-ChapterContent([string]$RawContent) {
+    $lines = $RawContent -split "`r?`n"
+    $out = [System.Collections.Generic.List[string]]::new()
+    $state = "start"   # start | in-frontmatter | body
+
+    foreach ($line in $lines) {
+        switch ($state) {
+            "start" {
+                if ($line -match '^\s*$') {
+                    # skip leading blank lines before frontmatter
+                    continue
+                }
+                elseif ($line -match '^---\s*$') {
+                    $state = "in-frontmatter"
+                    continue
+                }
+                else {
+                    # no frontmatter — emit line and switch to body
+                    $state = "body"
+                    $out.Add($line)
+                }
+            }
+            "in-frontmatter" {
+                if ($line -match '^---\s*$') {
+                    $state = "body"
+                    continue
+                }
+                # skip frontmatter lines
+            }
+            "body" {
+                # Replace standalone --- with *** to avoid YAML ambiguity
+                if ($line -match '^---\s*$') {
+                    $out.Add("***")
+                }
+                else {
+                    $out.Add($line)
+                }
+            }
+        }
+    }
+    return ($out -join "`n")
+}
+
+# ── Helper: Copy one chapter (with sanitisation) ────────────────────────
 function Copy-Chapter([string]$Source, [string]$LangRoot, [string]$RelDest) {
     if ([string]::IsNullOrWhiteSpace($RelDest)) { return }
     $dest = Join-Path $LangRoot $RelDest
     $dir = Split-Path $dest -Parent
     if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir -Force | Out-Null }
-    Copy-Item -Path $Source -Destination $dest -Force
-    Write-Host "  OK  $RelDest" -ForegroundColor Green
+
+    # Read, strip frontmatter, replace --- rules, write
+    $raw = Get-Content -Path $Source -Raw -Encoding UTF8
+    $clean = Sanitise-ChapterContent $raw
+    [System.IO.File]::WriteAllText($dest, $clean, [System.Text.UTF8Encoding]::new($false))
+
+    Write-Host "  OK  $RelDest  (frontmatter stripped)" -ForegroundColor Green
 }
 
 # ── Collect content ──────────────────────────────────────────────────────
@@ -92,19 +147,36 @@ function Collect-Content([string]$LangId) {
 function Build-Pdf([string]$LangId) {
     Write-Host ""
     Write-Host "Building PDF for [$LangId] ..." -ForegroundColor Yellow
-    Push-Location $script:BookRoot
-    try {
-        & gitbook-worker run --lang $LangId --profile local
-        if ($LASTEXITCODE -ne 0) {
-            Write-Error "gitbook-worker exited with code $LASTEXITCODE"
-        }
-        else {
-            $pdfDir = Join-Path $script:BookRoot "$LangId\publish"
-            Write-Host "PDF(s) written to: $pdfDir" -ForegroundColor Green
-        }
+
+    # Disable ERDA CJK/Indic/Ethiopic fallback fonts (not needed for DE/EN)
+    $env:ERDA_ENABLE_LUA_FALLBACK = "0"
+
+    # Use the explicit invocation pattern recommended by gitbook-worker docs:
+    #   python -m gitbook_worker.tools.workflow_orchestrator run
+    #     --root <book-root> --manifest <lang>/publish.yml
+    #     --profile local --content-config content.yaml --lang <lang>
+    $pythonExe = "c:\Python311\python.exe"
+    if (-not (Test-Path $pythonExe)) {
+        # Fallback: use python from PATH
+        $pythonExe = "python"
     }
-    finally {
-        Pop-Location
+
+    $bookDir = $script:BookRoot
+    $manifest = "$LangId/publish.yml"
+
+    & $pythonExe -m gitbook_worker.tools.workflow_orchestrator run `
+        --root $bookDir `
+        --manifest $manifest `
+        --profile local `
+        --content-config content.yaml `
+        --lang $LangId
+
+    if ($LASTEXITCODE -ne 0) {
+        Write-Error "gitbook-worker exited with code $LASTEXITCODE for [$LangId]"
+    }
+    else {
+        $pdfDir = Join-Path $bookDir "$LangId\publish"
+        Write-Host "PDF(s) written to: $pdfDir" -ForegroundColor Green
     }
 }
 

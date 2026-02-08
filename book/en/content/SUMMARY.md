@@ -1,25 +1,13 @@
 # Summary
 
 * [The Mars Book](README.md)
+  * [1. **Test Project on Earth**](chapters/cost-estimation/README.md)
+  * [1. Concept and Design](chapters/design-rubber-glass-house/README.md)
+  * [1. Two-Story Rubber-Glass House](chapters/variants-rubber-glass-house/README.md)
+  * [Colophon](appendix/colophon/README.md)
+  * [Design Improvements for the Mars Rubber-Glass House – Proposals for v2](chapters/design-improvements-v2/README.md)
+  * [License](appendix/license/README.md)
+  * [Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters (Version 1.2)](chapters/mars-field-laboratories/README.md)
+  * [README](chapters/the-peoples-house/README.md)
+  * [Three-Step Evolution Towards Biomimetic and Self-Growing Structures: A Vision for Adaptive Habitats on Mars](chapters/three-step-evolution/README.md)
 * [Introduction](introduction/README.md)
-
-## Part I — Mars Habitats
-
-* [Design of a 1000 m² Rubber-Glass House for Mars](chapters/design-rubber-glass-house/README.md)
-* [Variants of the Rubber-Glass House for Mars](chapters/variants-rubber-glass-house/README.md)
-* [Design Improvements for the Rubber-Glass House – v2](chapters/design-improvements-v2/README.md)
-* [Cost Estimation: Test Project on Earth and First Build on Mars](chapters/cost-estimation/README.md)
-* [The People's 1000 m² Rubber-Glass House on Mars](chapters/the-peoples-house/README.md)
-
-## Part II — Biomimetic and Self-Growing Structures
-
-* [Three-Step Evolution Towards Biomimetic and Self-Growing Structures](chapters/three-step-evolution/README.md)
-
-## Part III — Mars Robotics
-
-* [Mars Field Laboratories: Autonomous Legged Robots and Cooperative Robotic Clusters](chapters/mars-field-laboratories/README.md)
-
-## Appendices
-
-* [License](appendix/license/README.md)
-* [Colophon](appendix/colophon/README.md)
