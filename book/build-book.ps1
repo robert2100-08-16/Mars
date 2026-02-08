@@ -43,15 +43,15 @@ $Robotics = Join-Path $RepoRoot "Robotics"
 
 $MappingLines = @(
     # Part I: Mars Habitats
-    "$Publish\mars-gummi-haus\docs\Design_Rubber-Glass_House_Mars_EN.md|chapters\design-rubber-glass-house\README.md|"
-    "$Publish\mars-gummi-haus\docs\Entwurf_Gummi-Glashaus_Mars_DE.md||chapters\entwurf-gummi-glashaus\README.md"
-    "$Publish\mars-gummi-haus\docs\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\variants-rubber-glass-house\README.md|"
-    "$Publish\mars-gummi-haus\docs\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\varianten-gummi-glashaus\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Design_Rubber-Glass_House_Mars_EN.md|chapters\design-rubber-glass-house\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Entwurf_Gummi-Glashaus_Mars_DE.md||chapters\entwurf-gummi-glashaus\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\variants-rubber-glass-house\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\varianten-gummi-glashaus\README.md"
     "$Habitats\Design Improvements for the Mars Rubber-Glass House v2.md|chapters\design-improvements-v2\README.md|chapters\design-verbesserungen-v2\README.md"
     "$Habitats\The 1000 m² Mars Rubber-Glass House v2.md|chapters\rubber-glass-house-v2\README.md|"
     "$Habitats\Das 1000 m² Mars Gummi-Glashaus v2.md||chapters\gummi-glashaus-v2\README.md"
-    "$Publish\mars-gummi-haus\docs\Cost_Estimation_Mars_Project_EN.md|chapters\cost-estimation\README.md|chapters\kostenschaetzung\README.md"
-    "$Publish\mars-gummi-haus\docs\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\the-peoples-house\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Cost_Estimation_Mars_Project_EN.md|chapters\cost-estimation\README.md|chapters\kostenschaetzung\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\the-peoples-house\README.md|"
     # Part II: Biomimetic Structures
     "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\docs\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\three-step-evolution\README.md|chapters\drei-stufen-evolution\README.md"
     # Part III: Mars Robotics

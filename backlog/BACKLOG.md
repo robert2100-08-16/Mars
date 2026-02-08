@@ -27,7 +27,7 @@ Keines der drei veröffentlichten Dokumente verweist bisher auf die anderen. In 
 - `Habitats/MarsGummiHaus/Entwurf eines 1000 m² Gummi-Glashauses für den Mars.md`
 - `Habitats/three-step-evolution.../Three-Step Evolution … .md`
 - `Robotics/Mars Field Laboratories … .md`
-- Alle Dateien in `published/habitats/mars-gummi-haus/docs/`
+- Alle Dateien in `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/`
 
 ---
 
