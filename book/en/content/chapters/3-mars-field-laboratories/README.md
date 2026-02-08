@@ -20,7 +20,7 @@ achieves high operational resilience and scientific throughput.
 
 | # | Document | Description |
 |---|----------|-------------|
-| 1 | [Article](article/README.md) | Mars Field Laboratories: Autonomous Legged Robots and Cooperative Robotic Clusters |
+| 1 | [Article](3.1-article/README.md) | Mars Field Laboratories: Autonomous Legged Robots and Cooperative Robotic Clusters |
 
 ---
 

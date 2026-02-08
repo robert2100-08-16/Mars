@@ -43,19 +43,19 @@ $Robotics = Join-Path $RepoRoot "Robotics"
 
 $MappingLines = @(
     # ── Topic 1: Mars Rubber-Glass House / Gummi-Glashaus ──────────────────
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Design_Rubber-Glass_House_Mars_EN.md|chapters\1-mars-rubber-glass-house\design\README.md|"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Entwurf_Gummi-Glashaus_Mars_DE.md||chapters\1-mars-gummi-glashaus\entwurf\README.md"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\1-mars-rubber-glass-house\variants\README.md|"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\1-mars-gummi-glashaus\varianten\README.md"
-    "$Habitats\Design Improvements for the Mars Rubber-Glass House v2.md|chapters\1-mars-rubber-glass-house\design-improvements\README.md|chapters\1-mars-gummi-glashaus\design-verbesserungen\README.md"
-    "$Habitats\The 1000 m² Mars Rubber-Glass House v2.md|chapters\1-mars-rubber-glass-house\v2\README.md|"
-    "$Habitats\Das 1000 m² Mars Gummi-Glashaus v2.md||chapters\1-mars-gummi-glashaus\v2\README.md"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Cost_Estimation_Mars_Project_EN.md|chapters\1-mars-rubber-glass-house\cost-estimation\README.md|chapters\1-mars-gummi-glashaus\kostenschaetzung\README.md"
-    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\1-mars-rubber-glass-house\the-peoples-house\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Design_Rubber-Glass_House_Mars_EN.md|chapters\1-mars-rubber-glass-house\1.1-design\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Entwurf_Gummi-Glashaus_Mars_DE.md||chapters\1-mars-gummi-glashaus\1.1-entwurf\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_EN.md|chapters\1-mars-rubber-glass-house\1.2-variants\README.md|"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Varianten_Gummi-Glashaus_Mars_DE.md||chapters\1-mars-gummi-glashaus\1.2-varianten\README.md"
+    "$Habitats\Design Improvements for the Mars Rubber-Glass House v2.md|chapters\1-mars-rubber-glass-house\1.4-design-improvements\README.md|chapters\1-mars-gummi-glashaus\1.4-design-verbesserungen\README.md"
+    "$Habitats\The 1000 m² Mars Rubber-Glass House v2.md|chapters\1-mars-rubber-glass-house\1.3-v2\README.md|"
+    "$Habitats\Das 1000 m² Mars Gummi-Glashaus v2.md||chapters\1-mars-gummi-glashaus\1.3-v2\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Cost_Estimation_Mars_Project_EN.md|chapters\1-mars-rubber-glass-house\1.5-cost-estimation\README.md|chapters\1-mars-gummi-glashaus\1.5-kostenschaetzung\README.md"
+    "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\1-mars-rubber-glass-house\1.6-the-peoples-house\README.md|"
     # ── Topic 2: Three-Step Evolution / Drei-Stufen-Evolution ──────────────
-    "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\10.5281-zenodo.16540444\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\2-three-step-evolution\article\README.md|chapters\2-drei-stufen-evolution\artikel\README.md"
+    "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\10.5281-zenodo.16540444\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\2-three-step-evolution\2.1-article\README.md|chapters\2-drei-stufen-evolution\2.1-artikel\README.md"
     # ── Topic 3: Mars Field Laboratories / Mars-Feldlabore ─────────────────
-    "$Robotics\Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md|chapters\3-mars-field-laboratories\article\README.md|chapters\3-mars-feldlabore\artikel\README.md"
+    "$Robotics\Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md|chapters\3-mars-field-laboratories\3.1-article\README.md|chapters\3-mars-feldlabore\3.1-artikel\README.md"
 )
 
 # ── Helper: Strip YAML frontmatter and sanitise --- rules ────────────────

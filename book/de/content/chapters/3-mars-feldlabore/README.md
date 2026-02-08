@@ -23,7 +23,7 @@ wissenschaftlichen Durchsatz.
 
 | # | Dokument | Beschreibung |
 |---|----------|-------------|
-| 1 | [Fachartikel](artikel/README.md) | Mars Field Laboratories: Autonomous Legged Robots and Cooperative Robotic Clusters |
+| 1 | [Fachartikel](3.1-artikel/README.md) | Mars Field Laboratories: Autonomous Legged Robots and Cooperative Robotic Clusters |
 
 ---
 

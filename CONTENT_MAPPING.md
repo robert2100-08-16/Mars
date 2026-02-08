@@ -18,7 +18,7 @@ The Mars repository contains three kinds of content directories:
 | `Robotics/` | Active working documents (robotics papers) | ✅ |
 | `published/<topic>/<DOI>/` | Archival copies of Zenodo-published versions | ✅ |
 | `book/<lang>/content/chapters/*/` | Topic READMEs, DOI appendices (structure) | ✅ |
-| `book/<lang>/content/chapters/*/design/` etc. | Build-populated sub-chapters | ❌ (`.gitignore`) |
+| `book/<lang>/content/chapters/*/1.1-design/` etc. | Build-populated sub-chapters | ❌ (`.gitignore`) |
 
 The **build script** `book/build-book.ps1` copies source documents into the
 sub-chapter directories at build time, stripping YAML frontmatter and
@@ -34,12 +34,12 @@ book/<lang>/content/chapters/
 │
 ├── 1-mars-rubber-glass-house/        ← Topic 1 (EN) / 1-mars-gummi-glashaus (DE)
 │   ├── README.md                     ← Topic overview (versioned)
-│   ├── design/README.md              ← Build-populated from source
-│   ├── variants/README.md            ← Build-populated from source
-│   ├── v2/README.md                  ← Build-populated from source
-│   ├── design-improvements/README.md ← Build-populated from source
-│   ├── cost-estimation/README.md     ← Build-populated from source
-│   ├── the-peoples-house/README.md   ← Build-populated (EN only)
+│   ├── 1.1-design/README.md              ← Build-populated from source
+│   ├── 1.2-variants/README.md            ← Build-populated from source
+│   ├── 1.3-v2/README.md                  ← Build-populated from source
+│   ├── 1.4-design-improvements/README.md ← Build-populated from source
+│   ├── 1.5-cost-estimation/README.md     ← Build-populated from source
+│   ├── 1.6-the-peoples-house/README.md   ← Build-populated (EN only)
 │   └── 1.A-appendix-doi-*/           ← DOI appendix (versioned)
 │       ├── README.md
 │       ├── 10.5281-zenodo.16493055/  ← Published docs + abstract
@@ -47,13 +47,13 @@ book/<lang>/content/chapters/
 │
 ├── 2-three-step-evolution/           ← Topic 2 (EN) / 2-drei-stufen-evolution (DE)
 │   ├── README.md                     ← Topic overview (versioned)
-│   ├── article/README.md             ← Build-populated from source
+│   ├── 2.1-article/README.md             ← Build-populated from source
 │   └── 2.A-appendix-doi-*/           ← DOI appendix (versioned)
 │       └── 10.5281-zenodo.16540444/
 │
 └── 3-mars-field-laboratories/        ← Topic 3 (EN) / 3-mars-feldlabore (DE)
     ├── README.md                     ← Topic overview (versioned)
-    ├── article/README.md             ← Build-populated from source
+    ├── 3.1-article/README.md             ← Build-populated from source
     └── 3.A-appendix-doi-*/           ← DOI appendix (versioned)
         └── 10.5281-zenodo.15455156/
 ```
@@ -66,27 +66,27 @@ book/<lang>/content/chapters/
 
 | Source File | EN Destination | DE Destination |
 |-------------|----------------|----------------|
-| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Design_Rubber-Glass_House_Mars_EN.md` | `chapters/1-mars-rubber-glass-house/design/README.md` | — |
-| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Entwurf_Gummi-Glashaus_Mars_DE.md` | — | `chapters/1-mars-gummi-glashaus/entwurf/README.md` |
-| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Varianten_Gummi-Glashaus_Mars_EN.md` | `chapters/1-mars-rubber-glass-house/variants/README.md` | — |
-| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Varianten_Gummi-Glashaus_Mars_DE.md` | — | `chapters/1-mars-gummi-glashaus/varianten/README.md` |
-| `Habitats/MarsGummiHaus/Design Improvements for the Mars Rubber-Glass House v2.md` | `chapters/1-mars-rubber-glass-house/design-improvements/README.md` | `chapters/1-mars-gummi-glashaus/design-verbesserungen/README.md` |
-| `Habitats/MarsGummiHaus/The 1000 m² Mars Rubber-Glass House v2.md` | `chapters/1-mars-rubber-glass-house/v2/README.md` | — |
-| `Habitats/MarsGummiHaus/Das 1000 m² Mars Gummi-Glashaus v2.md` | — | `chapters/1-mars-gummi-glashaus/v2/README.md` |
-| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Cost_Estimation_Mars_Project_EN.md` | `chapters/1-mars-rubber-glass-house/cost-estimation/README.md` | `chapters/1-mars-gummi-glashaus/kostenschaetzung/README.md` |
-| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md` | `chapters/1-mars-rubber-glass-house/the-peoples-house/README.md` | — |
+| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Design_Rubber-Glass_House_Mars_EN.md` | `chapters/1-mars-rubber-glass-house/1.1-design/README.md` | — |
+| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Entwurf_Gummi-Glashaus_Mars_DE.md` | — | `chapters/1-mars-gummi-glashaus/1.1-entwurf/README.md` |
+| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Varianten_Gummi-Glashaus_Mars_EN.md` | `chapters/1-mars-rubber-glass-house/1.2-variants/README.md` | — |
+| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Varianten_Gummi-Glashaus_Mars_DE.md` | — | `chapters/1-mars-gummi-glashaus/1.2-varianten/README.md` |
+| `Habitats/MarsGummiHaus/Design Improvements for the Mars Rubber-Glass House v2.md` | `chapters/1-mars-rubber-glass-house/1.4-design-improvements/README.md` | `chapters/1-mars-gummi-glashaus/1.4-design-verbesserungen/README.md` |
+| `Habitats/MarsGummiHaus/The 1000 m² Mars Rubber-Glass House v2.md` | `chapters/1-mars-rubber-glass-house/1.3-v2/README.md` | — |
+| `Habitats/MarsGummiHaus/Das 1000 m² Mars Gummi-Glashaus v2.md` | — | `chapters/1-mars-gummi-glashaus/1.3-v2/README.md` |
+| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/Cost_Estimation_Mars_Project_EN.md` | `chapters/1-mars-rubber-glass-house/1.5-cost-estimation/README.md` | `chapters/1-mars-gummi-glashaus/1.5-kostenschaetzung/README.md` |
+| `published/habitats/mars-gummi-haus/10.5281-zenodo.16493055/The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md` | `chapters/1-mars-rubber-glass-house/1.6-the-peoples-house/README.md` | — |
 
 ### Topic 2: Three-Step Evolution / Drei-Stufen-Evolution
 
 | Source File | EN Destination | DE Destination |
 |-------------|----------------|----------------|
-| `published/habitats/three-step-evolution.../10.5281-zenodo.16540444/Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md` | `chapters/2-three-step-evolution/article/README.md` | `chapters/2-drei-stufen-evolution/artikel/README.md` |
+| `published/habitats/three-step-evolution.../10.5281-zenodo.16540444/Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md` | `chapters/2-three-step-evolution/2.1-article/README.md` | `chapters/2-drei-stufen-evolution/2.1-artikel/README.md` |
 
 ### Topic 3: Mars Field Laboratories / Mars-Feldlabore
 
 | Source File | EN Destination | DE Destination |
 |-------------|----------------|----------------|
-| `Robotics/Mars Field Laboratories...Cooperative Robotic Clusters_v1.2.md` | `chapters/3-mars-field-laboratories/article/README.md` | `chapters/3-mars-feldlabore/artikel/README.md` |
+| `Robotics/Mars Field Laboratories...Cooperative Robotic Clusters_v1.2.md` | `chapters/3-mars-field-laboratories/3.1-article/README.md` | `chapters/3-mars-feldlabore/3.1-artikel/README.md` |
 
 > **Legend:** "—" means no version exists for that language. The build script
 > skips empty mappings.

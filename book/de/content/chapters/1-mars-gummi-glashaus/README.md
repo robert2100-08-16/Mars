@@ -20,11 +20,11 @@ nachhaltige, flexible und robuste Behausung für erste Marskolonisten zu schaffe
 
 | # | Dokument | Beschreibung |
 |---|----------|-------------|
-| 1 | [Exposé: Entwurf](entwurf/README.md) | Technisches Konzept des 1000 m² Gummi-Glashauses |
-| 2 | [Varianten](varianten/README.md) | Übersicht der drei Bauvarianten |
-| 3 | [Version 2.0](v2/README.md) | Umfassende Neugestaltung mit Life Support und Crew-Routinen |
-| 4 | [Design-Verbesserungen](design-verbesserungen/README.md) | Verbesserungsvorschläge für v2 |
-| 5 | [Kostenschätzung](kostenschaetzung/README.md) | Materialkosten für Erde und Mars |
+| 1 | [Exposé: Entwurf](1.1-entwurf/README.md) | Technisches Konzept des 1000 m² Gummi-Glashauses |
+| 2 | [Varianten](1.2-varianten/README.md) | Übersicht der drei Bauvarianten |
+| 3 | [Version 2.0](1.3-v2/README.md) | Umfassende Neugestaltung mit Life Support und Crew-Routinen |
+| 4 | [Design-Verbesserungen](1.4-design-verbesserungen/README.md) | Verbesserungsvorschläge für v2 |
+| 5 | [Kostenschätzung](1.5-kostenschaetzung/README.md) | Materialkosten für Erde und Mars |
 
 ---
 

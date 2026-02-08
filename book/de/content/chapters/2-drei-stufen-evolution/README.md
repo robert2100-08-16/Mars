@@ -20,7 +20,7 @@ skalierbaren, nachhaltigen Weg für künftige Mars-Habitate.
 
 | # | Dokument | Beschreibung |
 |---|----------|-------------|
-| 1 | [Fachartikel](artikel/README.md) | Three-Step Evolution Towards Biomimetic and Self-Growing Structures |
+| 1 | [Fachartikel](2.1-artikel/README.md) | Three-Step Evolution Towards Biomimetic and Self-Growing Structures |
 
 ---
 

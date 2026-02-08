@@ -20,12 +20,12 @@ a resilient and scalable building solution for early Martian colonization.
 
 | # | Document | Description |
 |---|----------|-------------|
-| 1 | [Design Proposal](design/README.md) | Technical concept for the 1000 m² Rubber-Glass House |
-| 2 | [Variants](variants/README.md) | Overview of three building variants |
-| 3 | [Version 2.0](v2/README.md) | Comprehensive redesign with Life Support and Crew Routines |
-| 4 | [Design Improvements](design-improvements/README.md) | Engineering improvement proposals for v2 |
-| 5 | [Cost Estimation](cost-estimation/README.md) | Material costs for Earth and Mars |
-| 6 | [The People's House](the-peoples-house/README.md) | Community-focused manifesto |
+| 1 | [Design Proposal](1.1-design/README.md) | Technical concept for the 1000 m² Rubber-Glass House |
+| 2 | [Variants](1.2-variants/README.md) | Overview of three building variants |
+| 3 | [Version 2.0](1.3-v2/README.md) | Comprehensive redesign with Life Support and Crew Routines |
+| 4 | [Design Improvements](1.4-design-improvements/README.md) | Engineering improvement proposals for v2 |
+| 5 | [Cost Estimation](1.5-cost-estimation/README.md) | Material costs for Earth and Mars |
+| 6 | [The People's House](1.6-the-peoples-house/README.md) | Community-focused manifesto |
 
 ---
 

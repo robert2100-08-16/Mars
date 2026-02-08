@@ -20,7 +20,7 @@ pathway for future Mars habitats.
 
 | # | Document | Description |
 |---|----------|-------------|
-| 1 | [Article](article/README.md) | Three-Step Evolution Towards Biomimetic and Self-Growing Structures |
+| 1 | [Article](2.1-article/README.md) | Three-Step Evolution Towards Biomimetic and Self-Growing Structures |
 
 ---
 
