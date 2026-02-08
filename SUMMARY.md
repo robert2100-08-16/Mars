@@ -47,6 +47,7 @@
   * [Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters](Robotics/Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters.md)
   * [Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters (Version 1.2)](Robotics/Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md)
 * [YAML Frontmatter Standard for Mars Repository](frontmatter-standard.md)
+* [Content Mapping — Book Chapter Population](CONTENT_MAPPING.md)
 * [📖 The Mars Book / Das Mars Buch](book/README.md)
   * [de](book/de/README.md)
     * [Das Mars Buch](book/de/content/README.md)
