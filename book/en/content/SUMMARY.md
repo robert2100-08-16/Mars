@@ -1,9 +1,6 @@
 # Summary
 
 * [The Mars Book](README.md)
-* [appendix](appendix/README.md)
-  * [Colophon](appendix/colophon/README.md)
-  * [License](appendix/license/README.md)
 * [chapters](chapters/README.md)
   * [1. **Test Project on Earth**](chapters/cost-estimation/README.md)
   * [1. Concept and Design](chapters/design-rubber-glass-house/README.md)
@@ -14,3 +11,6 @@
   * [The 1000 m² Mars Rubber-Glass House — Version 2.0](chapters/rubber-glass-house-v2/README.md)
   * [Three-Step Evolution Towards Biomimetic and Self-Growing Structures: A Vision for Adaptive Habitats on Mars](chapters/three-step-evolution/README.md)
 * [Introduction](introduction/README.md)
+* [appendix](appendix/README.md)
+  * [Colophon](appendix/colophon/README.md)
+  * [License](appendix/license/README.md)
