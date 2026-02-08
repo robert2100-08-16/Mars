@@ -19,4 +19,5 @@ All trademarks are property of their respective owners.
 - `Varianten_Gummi-Glashaus_Mars_DE.md` – Deutsche Variantenübersicht.
 - `Varianten_Gummi-Glashaus_Mars_EN.md` – English overview of variants.
 - `The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md` – Community-focused manifesto (mixed CC BY 4.0 / MIT).
-- `SPRINT_RESULTS.md` – Summary of the sprint process.
+
+Sprint documentation has been moved to `backlog/done/`.
