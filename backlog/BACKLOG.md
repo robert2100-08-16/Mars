@@ -117,3 +117,4 @@ Workspace eingerichtet unter `book/` mit `content.yaml`, `book.json`, `publish.y
 - CHANGELOG.md anlegen
 - ~~PDF-Pipeline (GitHub Actions) validieren~~ → abgelöst durch GitBook Worker (`book/`)
 - ~~AGENTS.md aktualisieren (Three-Step ist veröffentlicht)~~ ✅ erledigt
+- ~~V2.0 Mars Rubber-Glass House Paper erstellen~~ ✅ erledigt (2026-02-08) — `Habitats/MarsGummiHaus/The 1000 m² Mars Rubber-Glass House v2.md`

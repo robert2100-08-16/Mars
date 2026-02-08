@@ -28,6 +28,11 @@ Er dient als zentraler Koordinator im Veröffentlichungsprozess und bindet weite
   📁 Quelle: GitHub Repository  
   ✅ Veröffentlicht: [DOI: 10.5281/zenodo.15455156](https://doi.org/10.5281/zenodo.15455156)
 
+- **„The 1000 m² Mars Rubber-Glass House — Version 2.0"**  
+  Umfassende V2.0-Neugestaltung: Closed-Loop Life Support, Crew-Routinen, Abfall-Recycling, ISRU, medizinisches Framework  
+  📁 Quelle: GitHub Repository  
+  📝 Status: Entwurf (v2.0)
+
 ---
 
 ## Verantwortlichkeiten des Agents
