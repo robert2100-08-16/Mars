@@ -53,7 +53,7 @@ $MappingLines = @(
     "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\Cost_Estimation_Mars_Project_EN.md|chapters\cost-estimation\README.md|chapters\kostenschaetzung\README.md"
     "$Publish\mars-gummi-haus\10.5281-zenodo.16493055\The_Peoples_1000m2_Rubber-Glass_House_on_Mars_EN.md|chapters\the-peoples-house\README.md|"
     # Part II: Biomimetic Structures
-    "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\docs\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\three-step-evolution\README.md|chapters\drei-stufen-evolution\README.md"
+    "$Publish\three-step-evolution-towards-biomimetic-and-self-growing-structures\10.5281-zenodo.16540444\Three-Step Evolution Towards Biomimetic and Self-Growing Structures.md|chapters\three-step-evolution\README.md|chapters\drei-stufen-evolution\README.md"
     # Part III: Mars Robotics
     "$Robotics\Mars Field Laboratories Integrating Autonomous Legged Robots and Cooperative Robotic Clusters_v1.2.md|chapters\mars-field-laboratories\README.md|chapters\mars-feldlabore\README.md"
 )
