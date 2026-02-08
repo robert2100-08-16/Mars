@@ -1,13 +1,15 @@
 # Summary
 
 * [Das Mars Buch](README.md)
+* [anhang](anhang/README.md)
+  * [Kolophon](anhang/kolophon/README.md)
+  * [Lizenz](anhang/lizenz/README.md)
+* [chapters](chapters/README.md)
   * [1. **Test Project on Earth**](chapters/kostenschaetzung/README.md)
   * [1. Zwei-Stöckiges Gummi-Glashaus](chapters/varianten-gummi-glashaus/README.md)
   * [Das 1000 m² Mars Gummi-Glashaus — Version 2.0](chapters/gummi-glashaus-v2/README.md)
   * [Design Improvements for the Mars Rubber-Glass House – Proposals for v2](chapters/design-verbesserungen-v2/README.md)
   * [Exposé: Entwurf eines 1000 m² Gummi-Glashauses für den Mars](chapters/entwurf-gummi-glashaus/README.md)
-  * [Kolophon](anhang/kolophon/README.md)
-  * [Lizenz](anhang/lizenz/README.md)
   * [Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters (Version 1.2)](chapters/mars-feldlabore/README.md)
   * [Three-Step Evolution Towards Biomimetic and Self-Growing Structures: A Vision for Adaptive Habitats on Mars](chapters/drei-stufen-evolution/README.md)
 * [Einleitung](einleitung/README.md)

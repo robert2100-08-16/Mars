@@ -1,0 +1,24 @@
+version: 0.1.1
+gitbook_rename: false
+project:
+  name: Mars Habitats
+  authors:
+  - Mars Colony Planning Team
+  license: CC-BY-SA-4.0
+profiles:
+  local:
+    description: Lokale Ausführung ohne Docker.
+    steps:
+    - converter
+    - publisher
+publish:
+- path: ./Habitats/MarsGummiHaus/Das 1000 m² Mars Gummi-Glashaus v2.md
+  out: Das 1000 m² Mars Gummi-Glashaus v2.pdf
+  out_dir: ./publish
+  build: true
+  source_type: file
+- path: ./Habitats/MarsGummiHaus/The 1000 m² Mars Rubber-Glass House v2.md
+  out: The 1000 m² Mars Rubber-Glass House v2.pdf
+  out_dir: ./publish
+  build: true
+  source_type: file

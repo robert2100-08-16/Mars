@@ -1,8 +1,16 @@
+# font storages
+fonts-storage/
+
+
 # ── GitBook Worker build outputs ──────────────────────────────
 book/en/publish/
 book/de/publish/
 book/fonts-storage/
 book/.gitbook-content/
+
+# ── Standalone publish outputs (root publish.yml) ────────────
+publish/*.pdf
+publish/temp/
 
 # ── Collected chapter content (copied by build-book.ps1) ─────
 # These are copies from the canonical source locations.
