@@ -33,7 +33,7 @@ a resilient and scalable building solution for early Martian colonization.
 
 | Section | Content |
 |---------|---------|
-| [1A. Appendix — DOI Publications](1A-appendix-doi-publications/README.md) | Zenodo archive with abstracts and documents |
+| [1.A Appendix — DOI Publications](1.A-appendix-doi-publications/README.md) | Zenodo archive with abstracts and documents |
 
 ---
 

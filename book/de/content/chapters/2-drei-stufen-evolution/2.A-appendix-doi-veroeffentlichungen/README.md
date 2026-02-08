@@ -1,4 +1,4 @@
-# 2A. Appendix — DOI-Veröffentlichungen
+# 2.A Appendix — DOI-Veröffentlichungen
 
 > Zenodo-Archiv der veröffentlichten Dokumente zur Drei-Stufen-Evolution
 

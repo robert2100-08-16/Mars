@@ -28,7 +28,7 @@ skalierbaren, nachhaltigen Weg für künftige Mars-Habitate.
 
 | Abschnitt | Inhalt |
 |-----------|--------|
-| [2A. Appendix — DOI-Veröffentlichungen](2A-appendix-doi-veroeffentlichungen/README.md) | Zenodo-Archiv mit Abstract und Dokumenten |
+| [2.A Appendix — DOI-Veröffentlichungen](2.A-appendix-doi-veroeffentlichungen/README.md) | Zenodo-Archiv mit Abstract und Dokumenten |
 
 ---
 

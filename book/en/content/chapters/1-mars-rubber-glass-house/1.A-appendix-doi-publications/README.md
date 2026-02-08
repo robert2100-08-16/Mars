@@ -1,4 +1,4 @@
-# 1A. Appendix — DOI Publications
+# 1.A Appendix — DOI Publications
 
 > Zenodo archive of published documents for the Mars Rubber-Glass House Project
 

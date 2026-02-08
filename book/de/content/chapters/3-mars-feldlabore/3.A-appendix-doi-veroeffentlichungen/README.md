@@ -1,4 +1,4 @@
-# 3A. Appendix — DOI-Veröffentlichungen
+# 3.A Appendix — DOI-Veröffentlichungen
 
 > Zenodo-Archiv der veröffentlichten Dokumente zu den Mars-Feldlaboren
 

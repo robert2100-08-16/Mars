@@ -32,7 +32,7 @@ nachhaltige, flexible und robuste Behausung für erste Marskolonisten zu schaffe
 
 | Abschnitt | Inhalt |
 |-----------|--------|
-| [1A. Appendix — DOI-Veröffentlichungen](1A-appendix-doi-veroeffentlichungen/README.md) | Zenodo-Archiv mit Abstracts und Dokumenten |
+| [1.A Appendix — DOI-Veröffentlichungen](1.A-appendix-doi-veroeffentlichungen/README.md) | Zenodo-Archiv mit Abstracts und Dokumenten |
 
 ---
 

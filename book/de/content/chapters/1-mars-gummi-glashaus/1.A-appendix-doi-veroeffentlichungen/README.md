@@ -1,4 +1,4 @@
-# 1A. Appendix — DOI-Veröffentlichungen
+# 1.A Appendix — DOI-Veröffentlichungen
 
 > Zenodo-Archiv der veröffentlichten Dokumente zum Mars Gummi-Glashaus Projekt
 

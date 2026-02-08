@@ -28,7 +28,7 @@ achieves high operational resilience and scientific throughput.
 
 | Section | Content |
 |---------|---------|
-| [3A. Appendix — DOI Publications](3A-appendix-doi-publications/README.md) | Zenodo archive with abstract and documents |
+| [3.A Appendix — DOI Publications](3.A-appendix-doi-publications/README.md) | Zenodo archive with abstract and documents |
 
 ---
 

@@ -1,4 +1,4 @@
-# 2A. Appendix — DOI Publications
+# 2.A Appendix — DOI Publications
 
 > Zenodo archive of published documents for the Three-Step Evolution
 

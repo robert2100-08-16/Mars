@@ -28,7 +28,7 @@ pathway for future Mars habitats.
 
 | Section | Content |
 |---------|---------|
-| [2A. Appendix — DOI Publications](2A-appendix-doi-publications/README.md) | Zenodo archive with abstract and documents |
+| [2.A Appendix — DOI Publications](2.A-appendix-doi-publications/README.md) | Zenodo archive with abstract and documents |
 
 ---
 

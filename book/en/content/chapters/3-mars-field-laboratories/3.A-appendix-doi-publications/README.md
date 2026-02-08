@@ -1,4 +1,4 @@
-# 3A. Appendix — DOI Publications
+# 3.A Appendix — DOI Publications
 
 > Zenodo archive of published documents for Mars Field Laboratories
 

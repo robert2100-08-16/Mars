@@ -31,7 +31,7 @@ wissenschaftlichen Durchsatz.
 
 | Abschnitt | Inhalt |
 |-----------|--------|
-| [3A. Appendix — DOI-Veröffentlichungen](3A-appendix-doi-veroeffentlichungen/README.md) | Zenodo-Archiv mit Abstract und Dokumenten |
+| [3.A Appendix — DOI-Veröffentlichungen](3.A-appendix-doi-veroeffentlichungen/README.md) | Zenodo-Archiv mit Abstract und Dokumenten |
 
 ---
 
