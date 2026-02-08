@@ -1,10 +1,51 @@
 ---
-title: "Three‑Step Evolution Towards Biomimetic and Self‑Growing Structures: A Vision for Adaptive Habitats on Mars"
-date: 2024‑09‑13
-author: "Robert Alexander Massinger, Munich, Germany"
+title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+subtitle: "A Vision for Adaptive Habitats on Mars"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.1"
+date: 2024-09-13
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16540444"
+doi-all-versions: "10.5281/zenodo.16540443"
+zenodo-record: "https://zenodo.org/records/16540444"
+resource-type: "publication"
+lang: en
+keywords:
+  - Mars Habitats
+  - Biomimetic Materials
+  - Silica Aerogel
+  - Self-Growing Structures
+  - Silicon-Based Polymers
+  - In-Situ Resource Utilisation
+abstract: |
+  This paper presents a three-step conceptual evolution of Martian habitat
+  construction, progressing from traditional engineering principles to
+  biomimetic lightweight materials and ultimately to autonomous, self-growing
+  silicon-based structures. Building upon the foundational Mars Rubber-Glass
+  House Project, this work outlines a scalable, sustainable pathway for future
+  Mars habitats.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Mars Rubber-Glass House Project – Design, Variants, Cost, and Vision for Martian Habitats"
+    doi: "10.5281/zenodo.16493055"
+    relation: "continues"
+  - title: "Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters"
+    doi: "10.5281/zenodo.15455156"
+    relation: "references"
+history:
+  - version: "1.0"
+    date: 2024-09-13
+    changes: "Initial publication on Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "Expanded frontmatter with DOI, cross-references, version history"
 ---
 
-# Three‑Step Evolution Towards Biomimetic and Self‑Growing Structures: A Vision for Adaptive Habitats on Mars
+# Three-Step Evolution Towards Biomimetic and Self-Growing Structures: A Vision for Adaptive Habitats on Mars
 
 ---
 

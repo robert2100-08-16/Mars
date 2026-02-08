@@ -1,3 +1,56 @@
+---
+title: "Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.2"
+date: 2025-04-29
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.15455156"
+doi-all-versions: "10.5281/zenodo.15455155"
+zenodo-record: "https://zenodo.org/records/15455156"
+resource-type: "preprint"
+lang: en
+keywords:
+  - Mars
+  - Robotics
+  - Legged Robots
+  - Swarm Robots
+  - Planetary Exploration
+  - AI
+  - Field Robotics
+  - Mobile Laboratories
+  - Autonomous Systems
+  - Space Systems
+abstract: |
+  Future Mars exploration demands adaptive, resilient robotic systems. This paper
+  proposes an integrated strategy of autonomous legged robots (Type A missions)
+  and cooperative robotic clusters (Type B missions). By embedding social
+  behaviors into robotic systems — consensus-based health monitoring, decentralized
+  swarm coordination, and peer-assisted recovery — this approach achieves high
+  operational resilience and scientific throughput.
+license: "CC BY 4.0"
+copyright: "© 2025 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4o, o4-mini-high, GPT-4.5"
+related-publications:
+  - title: "Mars Rubber-Glass House Project – Design, Variants, Cost, and Vision for Martian Habitats"
+    doi: "10.5281/zenodo.16493055"
+    relation: "references"
+  - title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+    doi: "10.5281/zenodo.16540444"
+    relation: "references"
+history:
+  - version: "1.0"
+    date: 2025-04-29
+    changes: "Initial version"
+  - version: "1.2"
+    date: 2025-04-29
+    changes: "Expanded content, updated AI collaboration credits, published on Zenodo"
+  - version: "1.2.1"
+    date: 2026-02-08
+    changes: "Added YAML frontmatter, cross-references, version history"
+---
+
 # Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters (Version 1.2)
 
 ## Author(s)

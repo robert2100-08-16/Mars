@@ -1,3 +1,45 @@
+---
+title: "Varianten des Gummi-Glashauses für den Mars"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, München, Deutschland"
+version: "1.0"
+date: 2024-06-01
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: de
+keywords:
+  - Mars-Habitat
+  - Gummi-Glashaus
+  - Bauvarianten
+  - Mehrstöckig
+  - Silikonkautschuk
+abstract: |
+  Dieses Dokument stellt drei Bauvarianten des Gummi-Glashauses vor und
+  vergleicht deren Materialbedarf und konstruktive Merkmale. Ziel ist die
+  Auswahl eines optimalen Designs für nachhaltige Marskolonien.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, München, Deutschland"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Design of a 1000 m² Rubber-Glass House for Mars"
+    doi: "10.5281/zenodo.16493055"
+    relation: "isPartOf"
+  - title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+    doi: "10.5281/zenodo.16540444"
+    relation: "references"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Erstveröffentlichung auf Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "YAML-Frontmatter, Querverweise und Versionshistorie ergänzt"
+---
+
 ### 1. Zwei-Stöckiges Gummi-Glashaus
 
 #### Grundriss und Struktur

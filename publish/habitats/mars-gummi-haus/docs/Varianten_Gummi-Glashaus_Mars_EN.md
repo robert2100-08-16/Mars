@@ -1,11 +1,40 @@
 ---
 title: "Variants of the Rubber-Glass House for Mars"
 author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.1"
 date: 2024-06-01
-keywords: [Mars, Rubber-Glass House, Variants]
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: en
+keywords:
+  - Mars Habitat
+  - Rubber-Glass House
+  - Variants
+  - Multi-Storey
+  - Silicone Rubber
 abstract: |
-  This document presents three variants of the rubber-glass house and compares their material requirements and construction features. The goal is to select an optimal design for sustainable Martian colonies.
-license: CC BY 4.0
+  This document presents three variants of the rubber-glass house and compares
+  their material requirements and construction features. The goal is to select
+  an optimal design for sustainable Martian colonies.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Design of a 1000 m² Rubber-Glass House for Mars"
+    doi: "10.5281/zenodo.16493055"
+    relation: "isPartOf"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Initial publication on Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "Expanded frontmatter with DOI, cross-references, version history"
 ---
 
 ### 1. Two-Story Rubber-Glass House

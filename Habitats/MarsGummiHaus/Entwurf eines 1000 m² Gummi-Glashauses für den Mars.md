@@ -1,3 +1,52 @@
+---
+title: "Entwurf eines 1000 m² Gummi-Glashauses für den Mars"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, München, Deutschland"
+version: "1.0"
+date: 2024-06-01
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: de
+keywords:
+  - Mars-Habitat
+  - Silikonkautschuk
+  - Borosilikatglas
+  - Titan-Inconel-Strukturen
+  - Nachhaltige Weltraumkolonisierung
+  - Extraterrestrische Architektur
+abstract: |
+  Dieses Exposé beschreibt den Entwurf eines 1000 m² großen Gummi-Glashauses
+  für den Mars. Die Struktur kombiniert Silikonkautschuk, Borosilikatglas und
+  einen Titan/Inconel-Rahmen zu einem robusten und skalierbaren Habitat für
+  zukünftige Marskolonien. Das Dokument umfasst Materialspezifikationen,
+  Kostenschätzungen und ein Nachhaltigkeitskonzept auf Basis der Nutzung
+  vor Ort verfügbarer Ressourcen.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, München, Deutschland"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Design of a 1000 m² Rubber-Glass House for Mars"
+    doi: "10.5281/zenodo.16493055"
+    relation: "isPartOf"
+  - title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+    doi: "10.5281/zenodo.16540444"
+    relation: "isContinuedBy"
+  - title: "Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters"
+    doi: "10.5281/zenodo.15455156"
+    relation: "references"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Erstveröffentlichung auf Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "YAML-Frontmatter, Querverweise und Versionshistorie ergänzt"
+---
+
 ### Exposé: Entwurf eines 1000 m² Gummi-Glashauses für den Mars
 
 #### Einleitung

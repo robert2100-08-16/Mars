@@ -21,7 +21,12 @@ Er dient als zentraler Koordinator im Veröffentlichungsprozess und bindet weite
 - **„Three‑Step Evolution Towards Biomimetic and Self‑Growing Structures“**  
   Englischer Fachartikel zu biomimetischer und selbstwachsender Architektur  
   📁 Quelle: GitHub Repository  
-  🕒 Veröffentlichung: nachgelagert
+  ✅ Veröffentlicht: [DOI: 10.5281/zenodo.16540444](https://doi.org/10.5281/zenodo.16540444)
+
+- **„Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters"**  
+  Englischer Fachartikel zu autonomen Robotersystemen für Mars-Exploration  
+  📁 Quelle: GitHub Repository  
+  ✅ Veröffentlicht: [DOI: 10.5281/zenodo.15455156](https://doi.org/10.5281/zenodo.15455156)
 
 ---
 
@@ -51,11 +56,22 @@ Er dient als zentraler Koordinator im Veröffentlichungsprozess und bindet weite
 
 ---
 
-## Nachgelagerte Veröffentlichung (Three‑Step Evolution…)
+## Status der Veröffentlichungen
 
-- Übernahme von „Lessons Learned“ aus der ersten Veröffentlichung
-- Ergänzung von Cross‑References zur ersten Publikation
-- Anpassung der Abstracts und Keywords an die englische Leserschaft
+| Publikation | DOI | Status |
+|---|---|---|
+| Mars Rubber-Glass House Project | [10.5281/zenodo.16493055](https://doi.org/10.5281/zenodo.16493055) | ✅ v1 veröffentlicht |
+| Three-Step Evolution | [10.5281/zenodo.16540444](https://doi.org/10.5281/zenodo.16540444) | ✅ v1.0 veröffentlicht |
+| Mars Field Laboratories | [10.5281/zenodo.15455156](https://doi.org/10.5281/zenodo.15455156) | ✅ v1.2 veröffentlicht |
+
+## Nächste Schritte (v2 Release)
+
+- Cross-References zwischen allen drei Publikationen einfügen (DOIs)
+- Zenodo „Related Identifiers" konfigurieren
+- Alle Records in die Community „Interplanetary Lab" einreichen
+- Frontmatter-Standard anwenden (siehe `FRONTMATTER_STANDARD.md`)
+- Design Improvements v2 für das Gummi-Glashaus integrieren
+- Siehe `backlog/BACKLOG.md` für vollständige Aufgabenliste
 
 ---
 

@@ -1,3 +1,50 @@
+---
+title: "Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.0"
+date: 2025-04-29
+last-modified: 2026-02-08
+status: "archived"
+doi: "10.5281/zenodo.15455156"
+doi-all-versions: "10.5281/zenodo.15455155"
+zenodo-record: "https://zenodo.org/records/15455156"
+resource-type: "preprint"
+lang: en
+keywords:
+  - Mars
+  - Robotics
+  - Legged Robots
+  - Swarm Robots
+  - Planetary Exploration
+  - AI
+  - Field Robotics
+  - Mobile Laboratories
+  - Autonomous Systems
+abstract: |
+  This work presents a dual-strategy approach for Mars exploration, combining
+  autonomous legged robots with cooperative robotic clusters. Emphasis is placed
+  on adaptability, resilience, and the integration of social behaviors to
+  enhance mission success.
+license: "CC BY 4.0"
+copyright: "© 2025 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Mars Rubber-Glass House Project – Design, Variants, Cost, and Vision for Martian Habitats"
+    doi: "10.5281/zenodo.16493055"
+    relation: "references"
+  - title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+    doi: "10.5281/zenodo.16540444"
+    relation: "references"
+history:
+  - version: "1.0"
+    date: 2025-04-29
+    changes: "Initial version (superseded by v1.2)"
+  - version: "1.0.1"
+    date: 2026-02-08
+    changes: "Added YAML frontmatter, cross-references; archived in favor of v1.2"
+---
+
 # Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters
 
 ## 1. Introduction

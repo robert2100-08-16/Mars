@@ -1,3 +1,51 @@
+---
+title: "Design of a 1000 m² Rubber-Glass House for Mars"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.0"
+date: 2024-06-01
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: en
+keywords:
+  - Mars Habitat
+  - Silicone Rubber
+  - Borosilicate Glass
+  - Titanium-Inconel Structures
+  - Sustainable Space Colonization
+  - Extraterrestrial Architecture
+abstract: |
+  This proposal outlines a 1000 m² rubber-glass house designed for Mars. It
+  relies on locally produced silicone rubber and a titanium or Inconel frame
+  with borosilicate glass to create a resilient and scalable habitat for future
+  Martian colonies. The document includes material specifications, cost
+  estimates, and a sustainability concept based on in-situ resource utilisation.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+    doi: "10.5281/zenodo.16540444"
+    relation: "isContinuedBy"
+  - title: "Mars Field Laboratories: Integrating Autonomous Legged Robots and Cooperative Robotic Clusters"
+    doi: "10.5281/zenodo.15455156"
+    relation: "references"
+  - title: "Design Improvements for the Mars Rubber-Glass House – Proposals for v2"
+    doi: ""
+    relation: "isContinuedBy"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Initial publication on Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "Added YAML frontmatter, cross-references, version history"
+---
+
 **Proposal: Design of a 1000 m² Rubber-Glass House for Mars**
 
 Dear Sir or Madam,  

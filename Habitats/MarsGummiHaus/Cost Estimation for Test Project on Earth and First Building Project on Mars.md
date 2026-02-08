@@ -1,3 +1,48 @@
+---
+title: "Cost Estimation for Test Project on Earth and First Building Project on Mars"
+author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.0"
+date: 2024-06-01
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: en
+keywords:
+  - Mars Habitat
+  - Cost Estimation
+  - Space Construction
+  - Transport Costs
+  - Earth Prototype
+abstract: |
+  This document provides approximate cost estimates for constructing a
+  prototype of the Mars Rubber-Glass House on Earth (~$1.9M) and the first
+  building on Mars (~$44.9M including transport). Estimates cover materials,
+  assembly, transport, and certification with contingencies for unforeseen
+  challenges. Transport costs dominate the Mars estimate at current rates
+  of ~$2,700/kg.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Design of a 1000 m² Rubber-Glass House for Mars"
+    doi: "10.5281/zenodo.16493055"
+    relation: "isPartOf"
+  - title: "Design Improvements for the Mars Rubber-Glass House – Proposals for v2"
+    doi: ""
+    relation: "isContinuedBy"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Initial publication on Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "Added YAML frontmatter, cross-references, version history"
+---
+
 To provide reasonable cost estimations for both the **Test Project on Earth** and the **First Building Project on Mars**, we'll make assumptions about costs related to materials, assembly, transport (in the case of Mars), and certification. These estimates will focus on medium-range costs with the necessary contingencies for unforeseen challenges. All costs are in USD and assume current technology and prices.
 
 ---

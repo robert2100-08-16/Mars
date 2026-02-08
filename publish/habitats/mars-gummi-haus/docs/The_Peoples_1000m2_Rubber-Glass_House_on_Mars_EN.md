@@ -1,11 +1,42 @@
 ---
 title: "The People’s 1000 m² Rubber-Glass House on Mars"
 author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.1"
 date: 2024-06-01
-keywords: [Mars, Rubber-Glass House, Community]
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: en
+keywords:
+  - Mars Habitat
+  - Rubber-Glass House
+  - Community Vision
+  - In-Situ Resource Utilisation
+  - Sustainable Space Colonization
 abstract: |
-  This manifesto presents a vision for a 1000 m² rubber-glass house constructed largely from Martian materials. It emphasizes sustainability, local resource use, and community participation in the expansion of extraterrestrial habitats.
-license: "CC BY 4.0 (text) / MIT (software excerpts)"
+  A community-focused manifesto for the 1000 m² Rubber-Glass House on Mars,
+  incorporating the innovative use of locally available silicate materials.
+license: "CC BY 4.0 + MIT"
+copyright: "© 2024 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "ChatGPT 3.5/4o"
+related-publications:
+  - title: "Design of a 1000 m² Rubber-Glass House for Mars"
+    doi: "10.5281/zenodo.16493055"
+    relation: "isPartOf"
+  - title: "Three-Step Evolution Towards Biomimetic and Self-Growing Structures"
+    doi: "10.5281/zenodo.16540444"
+    relation: "references"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Initial publication on Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "Expanded frontmatter with DOI, cross-references, version history"
 ---
 
 "The People’s 1000 m² Rubber-Glass House on Mars" by Robert Alexander Massinger and ChatGpt 3.5/4o, June 2024, The MIT License applies. 

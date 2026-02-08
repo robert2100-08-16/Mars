@@ -1,11 +1,41 @@
 ---
 title: "Cost Estimation for Test Project on Earth and First Building Project on Mars"
 author: "Robert Alexander Massinger"
+affiliation: "Robert Alexander Massinger Space Technologies, Munich, Germany"
+version: "1.1"
 date: 2024-06-01
-keywords: [Mars, Cost Estimation, Habitat]
+last-modified: 2026-02-08
+status: "published"
+doi: "10.5281/zenodo.16493055"
+doi-all-versions: "10.5281/zenodo.16493054"
+zenodo-record: "https://zenodo.org/records/16493055"
+resource-type: "publication"
+lang: en
+keywords:
+  - Mars Habitat
+  - Cost Estimation
+  - Space Construction
+  - Transport Costs
+  - Earth Prototype
 abstract: |
-  This document provides approximate cost estimates for constructing a prototype on Earth and the first rubber-glass building on Mars. Estimates include materials, assembly, transport, and certification with contingencies for unforeseen challenges.
-license: CC BY 4.0
+  This document provides approximate cost estimates for constructing a
+  prototype on Earth and the first rubber-glass building on Mars. Estimates
+  include materials, assembly, transport, and certification with contingencies
+  for unforeseen challenges.
+license: "CC BY 4.0"
+copyright: "© 2024 Robert Alexander Massinger, Munich, Germany"
+ai-disclosure: "GPT-4"
+related-publications:
+  - title: "Design of a 1000 m² Rubber-Glass House for Mars"
+    doi: "10.5281/zenodo.16493055"
+    relation: "isPartOf"
+history:
+  - version: "1.0"
+    date: 2024-06-01
+    changes: "Initial publication on Zenodo"
+  - version: "1.1"
+    date: 2026-02-08
+    changes: "Expanded frontmatter with DOI, cross-references, version history"
 ---
 To provide reasonable cost estimations for both the **Test Project on Earth** and the **First Building Project on Mars**, we'll make assumptions about costs related to materials, assembly, transport (in the case of Mars), and certification. These estimates will focus on medium-range costs with the necessary contingencies for unforeseen challenges. All costs are in USD and assume current technology and prices.
 
