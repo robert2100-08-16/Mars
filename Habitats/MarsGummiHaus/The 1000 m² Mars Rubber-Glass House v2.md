@@ -159,7 +159,7 @@ Three climate zones separated by lightweight silicone foam partition walls (STC 
 ```
 ┌──────────────────────────────────────────────────────┐
 │                    SOLAR ROOF (1000 m²)              │
-│              + 50 cm Martian regolith layer           │
+│              + 50 cm Martian regolith layer          │
 ├──────────┬──────────────────────┬────────────────────┤
 │          │                      │                    │
 │  WARM    │    TEMPERATE         │      COOL          │
@@ -177,7 +177,7 @@ Three climate zones separated by lightweight silicone foam partition walls (STC 
 │  NORTH]  │                      │          SOUTH]    │
 ├──────────┴──────────────────────┴────────────────────┤
 │  MEZZANINE LEVEL (above warm + temperate zones)      │
-│  ~400 m²: 4 crew cabins (48 m²), quiet room (12 m²),│
+│  ~400 m²: 4 crew cabins (48 m²), quiet room (12 m²), │
 │  storage, crew recreation, vertical farm upper tiers │
 └──────────────────────────────────────────────────────┘
 ```
@@ -339,14 +339,14 @@ A closed-loop fish–plant system provides protein diversification and nutrient 
 
 ```
 ┌─────────────┐     ┌──────────────┐     ┌──────────────┐
-│  Fish Tanks  │────▶│ Biofilter    │────▶│ Grow Beds    │
-│  (Tilapia)   │     │ (NH₃→NO₃⁻)  │     │ (Lettuce,    │
-│  30 m²       │     │              │     │  tomatoes)   │
-│  28°C        │     └──────────────┘     │              │
-│              │◀────────────────────────│  Return water │
+│  Fish Tanks │────>│ Biofilter    │────>│ Grow Beds    │
+│  (Tilapia)  │     │ (NH₃→NO₃⁻)   │     │ (Lettuce,    │
+│  30 m²      │     │              │     │  tomatoes)   │
+│  28°C       │     └──────────────┘     │              │
+│             │<─────────────────────────│ Return water │
 └─────────────┘                          └──────────────┘
-     │                                         │
-     ▼                                         ▼
+      │                                         │
+      ▼                                         ▼
   Fish waste                              Clean water
   (fertiliser)                            (back to tanks)
 ```
@@ -561,18 +561,18 @@ The annual schedule aligns with **Martian seasons** (Mars has a 25.19° axial ti
 Each operational system follows a rigorous five-stage cycle:
 
 ```
-┌──────────────┐     ┌──────────┐     ┌────────────┐
-│ Investigation │────▶│  Model   │────▶│ Simulation │
+┌───────────────┐     ┌──────────┐     ┌────────────┐
+│ Investigation │────>│  Model   │────>│ Simulation │
 │ (Observe &    │     │ (Build   │     │ (Run       │
 │  Measure)     │     │  Theory) │     │  Digital   │
-└──────────────┘     └──────────┘     │  Twin)     │
+└───────────────┘     └──────────┘     │  Twin)     │
        ▲                               └─────┬──────┘
        │                                     │
        │                                     ▼
 ┌──────┴───────────┐              ┌──────────────────┐
-│ Scientific        │◀────────────│   Validation      │
-│ Assessment &      │             │ (Compare Model    │
-│ Publication       │             │  vs. Reality)     │
+│ Scientific       │<─────────────│   Validation     │
+│ Assessment &     │              │ (Compare Model   │
+│ Publication      │              │  vs. Reality)    │
 └──────────────────┘              └──────────────────┘
 ```
 
